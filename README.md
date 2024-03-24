@@ -20,7 +20,7 @@ Official website of SIGKDD Student Chapter SRM KTR
 <br>
 
 ## Demo
-<img align="center" alt="Home Page"  src="https://raw.githubusercontent.com/ADITYAVOFFICIAL/Fortuna/main/demos/home.png">
+<img align="center" alt="Home Page"  src="https://raw.githubusercontent.com/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/main/public/ss.png">
 
 ## Setting Up Fortuna
 
