@@ -19,7 +19,7 @@ function TeamCarousel() {
 
   return (
     <section className="section">
-      <div className="container" style={{ marginTop: "80px" }}>
+      <div className="container conty">
         <div className="row justify-content-center">
           <div className="col-sm-5 col-lg-9 w-100vw">
             <Carousel fade slide className="carousel-glow">
