@@ -48,9 +48,6 @@ function TeamCarousel() {
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
-            <div className="play-pause-button" onClick={handlePlayPause}>
-              {isPlaying ? "Pause" : "Play"}
-            </div>
           </div>
         </div>
       </div>
