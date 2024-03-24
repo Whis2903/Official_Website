@@ -23,7 +23,7 @@ function TeamCarousel() {
           <div className="col-sm-5 col-lg-9 w-100vw">
             <Carousel fade slide className="carousel-glow" interval={null}>
               <Carousel.Item>
-                <div style={{ width: "100%", height: "100%", borderRadius: "22px", overflow: "hidden" }}>
+                <div style={{ width: "100%", height: "110%", borderRadius: "22px", overflow: "hidden" }}>
                   <YouTube
                     videoId="JKHIe_Wxm4s"
                     opts={{ width: "100%", height: "500px", playerVars: { autoplay: 0, modestbranding: 1, controls: 0, quality: quality } }}
