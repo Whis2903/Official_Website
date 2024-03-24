@@ -99,6 +99,7 @@
     white-space: nowrap!important; 
     color: var(--secondary-color);
     text-decoration: none;
+    font-size: 12px;
   }
   
   .copyright .active {
