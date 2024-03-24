@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import { Carousel } from "react-bootstrap";
-import CoreTeam from "../../assets/CoreMembers/core.jpg";
 import Sample from "../../assets/Events/sample.png"
 import YouTube from "react-youtube";
 import "./teamslide.css";
@@ -22,15 +21,9 @@ function TeamCarousel() {
       <div className="container conty">
         <div className="row justify-content-center">
           <div className="col-sm-5 col-lg-9 w-100vw">
-            <Carousel fade slide className="carousel-glow">
+            <Carousel fade slide className="carousel-glow" interval={null}>
               <Carousel.Item>
-                <img src={CoreTeam} className="d-block w-100" alt="Core Team" />
-                <Carousel.Caption>
-                  <h5 className="eventname">Core Team Members (Foundation Team)</h5>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <div style={{ width: "100%", height: "100%", borderRadius: "15px", overflow: "hidden" }}>
+                <div style={{ width: "100%", height: "100%", borderRadius: "22px", overflow: "hidden" }}>
                   <YouTube
                     videoId="JKHIe_Wxm4s"
                     opts={{ width: "100%", height: "500px", playerVars: { autoplay: 0, modestbranding: 1, controls: 0, quality: quality } }}
