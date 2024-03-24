@@ -65,7 +65,7 @@ Official website of SIGKDD Student Chapter SRM KTR
 
  ## Current Contributors 🔻
 <div align="center">
-  <a href="https://github.com/ADITYAVOFFICIAL/Fortuna/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER" />
+  <a href="https://github.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website" />
 </a>
 </div>
