@@ -2,10 +2,10 @@
   font-weight: bold;
   background-color: black;
   color: white; /* Ensuring text color contrasts with the background */
-  border-radius: 25px;
+  border-radius: 22px;
   padding: 10px 20px; /* Adjust padding as needed */
   display: inline-block;
-  min-width: max-content; /* Adjust based on your design */
+  min-width: max-content;
 }
 .carousel-item {
   height: 100%; /* Adjust the height as needed */
@@ -31,7 +31,8 @@
     min-width: auto; /* Remove min-width for better responsiveness */
     max-width: 100%; /* Ensure element takes up full width */
     overflow: hidden; /* Hide any overflowed content */
-    white-space: break-word; /* Prevent text from wrapping onto multiple lines */
+    white-space: break-word;
+    font-size: 13px; /* Prevent text from wrapping onto multiple lines */
   }
   .carousel-item {
     height: 295px; /* Adjust the height as needed */
