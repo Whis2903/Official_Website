@@ -1,16 +1,27 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import { Carousel } from "react-bootstrap";
 import CoreTeam from "../../assets/CoreMembers/core.jpg";
-import first from "../../assets/Events/sample.png";
+import YouTube from "react-youtube";
 import "./teamslide.css";
 
 function TeamCarousel() {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [quality, setQuality] = useState("hd1080"); // Set quality to 1080p
+  const playerRef = useRef(null);
+
+  const handlePlayPause = () => {
+    setIsPlaying(!isPlaying);
+    if (playerRef.current) {
+      isPlaying ? playerRef.current.pauseVideo() : playerRef.current.playVideo();
+    }
+  };
+
   return (
     <section className="section">
       <div className="container" style={{ marginTop: "80px" }}>
         <div className="row justify-content-center">
           <div className="col-sm-5 col-lg-9 w-100vw">
-            <Carousel fade interval={5000} slide className="carousel-glow">
+            <Carousel fade slide className="carousel-glow">
               <Carousel.Item>
                 <img src={CoreTeam} className="d-block w-100" alt="Core Team" />
                 <Carousel.Caption>
@@ -18,12 +29,31 @@ function TeamCarousel() {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img src={first} className="d-block w-100" alt="Our First Event" />
-                <Carousel.Caption>
-                  <h5 className="eventname">Our First Event</h5>
-                </Carousel.Caption>
+                <div style={{ width: "100%", height: "100%", borderRadius: "15px", overflow: "hidden" }}>
+                  <YouTube
+                    videoId="JKHIe_Wxm4s"
+                    opts={{
+                      width: "100%",
+                      height: "500px",
+                      playerVars: {
+                        autoplay: 0,
+                        modestbranding: 1,
+                        controls: 0,
+                        quality: quality,
+                        showinfo: 0 // Remove YouTube logo
+                      }
+                    }}
+                    onReady={(event) => {
+                      playerRef.current = event.target;
+                      setIsPlaying(false);
+                    }}
+                  />
+                </div>
               </Carousel.Item>
             </Carousel>
+            <div className="play-pause-button" onClick={handlePlayPause}>
+              {isPlaying ? "Pause" : "Play"}
+            </div>
           </div>
         </div>
       </div>
