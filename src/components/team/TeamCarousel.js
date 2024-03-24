@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import { Carousel } from "react-bootstrap";
 import CoreTeam from "../../assets/CoreMembers/core.jpg";
+import Sample from "../../assets/Events/sample.png"
 import YouTube from "react-youtube";
 import "./teamslide.css";
 
@@ -32,23 +33,19 @@ function TeamCarousel() {
                 <div style={{ width: "100%", height: "100%", borderRadius: "15px", overflow: "hidden" }}>
                   <YouTube
                     videoId="JKHIe_Wxm4s"
-                    opts={{
-                      width: "100%",
-                      height: "500px",
-                      playerVars: {
-                        autoplay: 0,
-                        modestbranding: 1,
-                        controls: 0,
-                        quality: quality,
-                        showinfo: 0 // Remove YouTube logo
-                      }
-                    }}
+                    opts={{ width: "100%", height: "500px", playerVars: { autoplay: 0, modestbranding: 1, controls: 0, quality: quality } }}
                     onReady={(event) => {
                       playerRef.current = event.target;
                       setIsPlaying(false);
                     }}
                   />
                 </div>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img src={Sample} className="d-block w-100" alt="Core Team" />
+                <Carousel.Caption>
+                  <h5 className="eventname">Our First Event</h5>
+                </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
             <div className="play-pause-button" onClick={handlePlayPause}>
