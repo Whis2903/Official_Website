@@ -1,14 +1,14 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badges)
 ![Status](https://img.shields.io/website-up-down-green-red/https/srmsigkdd.vercel.app/.svg)
-![Forks](https://img.shields.io/github/forks/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER.svg)
-![Issues](https://img.shields.io/github/issues/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER.svg)
-![PR](https://img.shields.io/github/issues-pr/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER.svg)
+![Forks](https://img.shields.io/github/forks/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
+![Issues](https://img.shields.io/github/issues/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
+![PR](https://img.shields.io/github/issues-pr/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
-![Views](https://views.whatilearened.today/views/github/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER.svg)
+![Views](https://views.whatilearened.today/views/github/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
 
 <p align="center">
   <a href="srmsigkdd.vercel.app">
-    <img alt = "Logo" width="250" src = "https://raw.githubusercontent.com/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/main/public/favicon-32x32.png">
+    <img alt = "Logo" width="250" src = "https://raw.githubusercontent.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website/main/public/favicon-32x32.png">
   </a>
 
 </p>
@@ -20,7 +20,7 @@ Official website of SIGKDD Student Chapter SRM KTR
 <br>
 
 ## Demo
-<img align="center" alt="Home Page"  src="https://raw.githubusercontent.com/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/main/public/ss.png">
+<img align="center" alt="Home Page"  src="https://raw.githubusercontent.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website/main/public/ss.png">
 
 ## Setting Up Fortuna
 
