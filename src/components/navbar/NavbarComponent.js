@@ -69,7 +69,7 @@ function NavbarComponent() {
               <Nav.Link as={NavLink} to="/home" style={{fontWeight:"bolder"}}>
                 Home
               </Nav.Link>
-              <Nav.Link as={HashLink} to="#upcomingevents" style={{fontWeight:"bolder"}}>
+              <Nav.Link as={HashLink} to="/home#upcomingevents" style={{fontWeight:"bolder"}}>
                 Events
               </Nav.Link>
               <Nav.Link
