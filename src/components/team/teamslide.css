@@ -1,0 +1,37 @@
+.eventname {
+  font-weight: bold;
+  background-color: black;
+  color: white; /* Ensuring text color contrasts with the background */
+  border-radius: 25px;
+  padding: 10px 20px; /* Adjust padding as needed */
+  display: inline-block;
+  min-width: max-content; /* Adjust based on your design */
+}
+.carousel-item {
+  height: 100%; /* Adjust the height as needed */
+}
+
+.carousel-glow {
+  box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Light purple color with alpha for glow effect */
+  animation: glow 2s infinite alternate; /* Apply animation for breathing effect */
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+
+@media (max-width: 576px) {
+  .eventname {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 2px 10px; /* Adjust padding for smaller screens */
+    display: inline-block;
+    min-width: auto; /* Remove min-width for better responsiveness */
+    max-width: 100%; /* Ensure element takes up full width */
+    overflow: hidden; /* Hide any overflowed content */
+    white-space: break-word; /* Prevent text from wrapping onto multiple lines */
+  }
+  .carousel-item {
+    height: 295px; /* Adjust the height as needed */
+  }
+}

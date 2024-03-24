@@ -1,0 +1,13 @@
+.slider-right > div,
+.slider-left > div {
+  border: 0px !important;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .slider-single-content > img {
+    height: 250px !important;
+    width: 250px !important;
+  }
+}

@@ -1,0 +1,48 @@
+.gbc1 {
+  position: absolute;
+  top: 70%;
+  left: -170px;
+  width: 340px;
+  height: 480px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at center,
+    #b833f6 10%,
+    rgba(255, 255, 255, 0.5) 200%
+  );
+  filter: blur(195px);
+  opacity: 0.8;
+  mix-blend-mode: screen;
+}
+.bbc1 {
+  position: absolute;
+  top: 70%;
+  right: -170px;
+  width: 340px;
+  height: 480px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at center,
+    #4e36e8 10%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  mix-blend-mode: screen;
+  opacity: 0.5;
+  filter: blur(195px);
+}
+.gbc2 {
+  position: absolute;
+  top: 70%;
+  left: -170px;
+  width: 340px;
+  height: 480px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at center,
+    #b833f6 10%,
+    rgba(255, 255, 255, 0.5) 200%
+  );
+  filter: blur(195px);
+  opacity: 0.8;
+  mix-blend-mode: screen;
+}

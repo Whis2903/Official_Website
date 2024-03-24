@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Syne:400,500.600,700");
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #b833f6;
+  --accent-color: #f3f3f3;
+  --accent-color-2: #d1d1d1;
+}
+
+html,
+body {
+  background: var(--primary-color) !important;
+  font-family: "Montserrat" !important;
+  color: var(--accent-color) !important;
+  overflow-x: hidden !important;
+}
+.h-100vh {
+  height: 100vh !important;
+}
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+.section-title {
+  font-family: "Syne";
+  font-size: 48px;
+  font-weight: 600;
+}
+.section-subtitle {
+  font-family: "Syne";
+  font-size: 20px;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .h-100vh {
+    height: 70% !important;
+  }
+  .section-title {
+    font-size: 32px;
+  }
+  .section-subtitle {
+    font-size: 16px;
+  }
+}

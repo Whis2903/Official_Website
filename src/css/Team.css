@@ -1,0 +1,34 @@
+.carousel-item {
+  margin-top: 50px;
+  margin-bottom: 44px;
+}
+
+.tab-btn {
+  margin: 0px;
+}
+
+.carousel-item > img {
+  height: 500px !important;
+  width: 100% !important;
+  border-radius: 15px;
+  outline: var(--secondary-color) solid 2px;
+}
+.nav-tabs {
+  border-bottom: 1px !important;
+}
+.nav-tabs > .nav-item {
+  margin: 1vh;
+  border: 1.5px solid var(--accent-color) !important;
+  border-radius: 20px;
+}
+.nav-tabs > .nav-item > button {
+  font-weight: 600;
+  color: var(--secondary-color) !important;
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  .carousel-item > img {
+    height: 250px !important;
+    width: 100% !important;
+  }
+}

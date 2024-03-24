@@ -1,0 +1,43 @@
+.creator-card {
+  border-radius: 15px;
+  align-items: center;
+  background: rgba(0, 0, 0, 0); /* Adjust the last value (0.5) for transparency */
+}
+
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px rgba(153, 102, 255, 0.8); /* Initial glow */
+  }
+  to {
+    box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Increased glow */
+  }
+}
+
+.creator-card > .card-body {
+  height: 70px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.creator-card > img {
+  margin-top: 6px;
+  height: 60%;
+  width: 60%;
+  border-radius: 10px;
+  /* Add box-shadow for the glowing effect */
+  box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Light purple color with alpha for glow effect */
+  animation: glow 3s infinite alternate; /* Apply animation for breathing effect */
+}
+
+.creator-card > .card-body > .card-title {
+  font-size: 16px !important;
+  font-weight: 800;
+  color: white;
+}
+
+.creator-card > .card-body > .card-text {
+  font-size: 16px !important;
+  font-weight: 500;
+  color: white;
+}

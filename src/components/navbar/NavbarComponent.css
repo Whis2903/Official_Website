@@ -1,0 +1,83 @@
+.custom-navbar {
+  height: 85px;
+}
+.nav-link {
+  margin: 0px 35px;
+}
+.navbar-brand {
+  font-weight: 600;
+}
+
+.nav-link:focus,
+.nav-link:hover,
+.nav-link.active,
+.nav-link:focus {
+  border-bottom: 4px solid var(--secondary-color) !important;
+}
+.custom-contact {
+  background-color: var(--primary-color);
+  padding: 0px 10px 0px 10px;
+  border-radius: 22px;
+}
+.custom-contact > .nav-link,
+.custom-contact > .nav-link:hover {
+  color: var(--accent-color);
+}
+
+.navbar-collapse {
+  text-align: center;
+  border-radius: 0px 0px 22px 22px;
+}
+
+.modal-content {
+  background-color: var(--primary-color) !important;
+  color: var(--accent-color);
+  border-radius: 22px;
+}
+.modal-header {
+  border-bottom: none;
+}
+input,
+textarea {
+  background-color: #343434 !important;
+  color: var(--accent-color) !important;
+}
+.submit-button {
+  margin: 20px 0px 0px 0px;
+  background: var(--secondary-color);
+  color: var(--accent-color);
+  font-weight: bold;
+}
+.submit-button:hover {
+  background: transparent;
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .navbar-brand {
+    height: 60px !important;
+    font-size: 0.8rem;
+  }
+  .navbar-collapse {
+    background-color: black !important;
+    text-align: center;
+    border-radius: 22px 22px 22px 22px;
+    margin-top: 8px;
+  }
+  .nav-link:focus,
+  .nav-link:hover,
+  .nav-link.active,
+  .nav-link:focus {
+    background-color: var(--secondary-color);
+    border-radius: 22px;
+    color: var(--accent-color) !important;
+  }
+  .custom-contact {
+    background-color: black;
+  }
+  .custom-contact > .nav-link {
+    color: var(--bs-nav-link-color);
+  }
+}
