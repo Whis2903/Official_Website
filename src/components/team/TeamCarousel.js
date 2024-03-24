@@ -25,7 +25,7 @@ function TeamCarousel() {
               <Carousel.Item>
                 <div style={{ width: "100%", height: "110%", borderRadius: "22px", overflow: "hidden" }}>
                   <YouTube
-                    videoId="JKHIe_Wxm4s"
+                    videoId="XN9pRYh3zTA"
                     opts={{ width: "100%", height: "500px", playerVars: { autoplay: 0, modestbranding: 1, controls: 0, quality: quality } }}
                     onReady={(event) => {
                       playerRef.current = event.target;
