@@ -147,4 +147,7 @@
   .profile-image-orange {
     display: none;
   }
+  .srm-logo{
+    height: 60px!important;
+  }
 }
