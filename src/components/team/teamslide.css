@@ -10,7 +10,9 @@
 .carousel-item {
   height: 100%; /* Adjust the height as needed */
 }
-
+.conty{
+  margin-top: 25px;
+}
 .carousel-glow {
   box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Light purple color with alpha for glow effect */
   animation: glow 2s infinite alternate; /* Apply animation for breathing effect */
@@ -33,5 +35,8 @@
   }
   .carousel-item {
     height: 295px; /* Adjust the height as needed */
+  }
+  .conty{
+    margin-top: 80px;
   }
 }
