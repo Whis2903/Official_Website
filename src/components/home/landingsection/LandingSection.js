@@ -10,7 +10,7 @@ import smPurpleLine from "./images/sm-purple-line.png";
 const LandingSection = (props) => {
   return (
     <>
-      <section className="landing-section section h-100vh">
+      <section className="landing-section section h-100vh" style={{marginTop:"50px"}}>
           <div className="container" style={{marginTop:"10px"}}>
             <div className="gbc1"></div>
             <div className="row justify-content-between mt-3">
