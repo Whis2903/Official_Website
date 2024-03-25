@@ -1,23 +1,30 @@
 .card{
     border-radius: 20px!important;
-    
 }
 
 .glow{
-
 box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Light purple color with alpha for glow effect */
 animation: glow 3s infinite alternate; /* Apply animation for breathing effect */
 }
+.custom-text{
+  color: #b833f6;
+  font-weight: 520;
+}
 .custom-button {
     font-weight: 550;
-    background-color: #8000ff;
-    border-color: #8000ff; /* Change to your desired background color */
+    background-color: #b833f6;
+    border-color: #b833f6; /* Change to your desired background color */
     color: white; /* Change to your desired text color */
   }
   .custom-button:hover {
-    background-color: #8000ff;
-    border-color: #8000ff;
+    background-color: #b833f6;
+    border-color: #b833f6;
     box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Light purple color with alpha for glow effect */
+  }
+  .custom-button:active{
+    background-color: #b833f6;
+    border-color: #b833f6;
+    box-shadow: 0 0 20px rgba(153, 102, 255, 0.8);
   }
 
   @keyframes glow {
