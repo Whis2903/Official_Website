@@ -45,8 +45,7 @@ flowchart LR
 A(Round)
 A[Clone Repo] --> B(Round)
 C(Round)
-B[Open Folder] --> C[Run npm install --legacy-peer-deps]
-C(round) --> [Run npm start]
+B[Open Folder] --> C[Run npm install --legacy-peer-deps] -->D[npm start]
 ```
 
  ## 💻 Current Tech Stack
