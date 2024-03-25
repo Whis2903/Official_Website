@@ -36,13 +36,13 @@ function Team() {
           title="2024 - 2025"
           selected="true"
         />
-        <Tab
+        {/* <Tab
           className="nav-link tab-btn"
           id="year2024-tab"
           targetID="#year2024-tab-pane"
           title="2025 - 2026"
           selected="false"
-        />
+        /> */}
       </ul>
       <div className="tab-content">
         <TabContent
