@@ -78,7 +78,7 @@ function Footer() {
                 </div>
                 <div className="col-lg-3">
                   <h3 className="footer-section-title" style={{color:"white",fontWeight:"bold"}}>Made By</h3>
-                  <Carousel className="footer-carousel" fade indicators={false}>
+                  <Carousel className="footer-carousel" fade indicators={false} controls={false}>
                   <Carousel.Item>
                           <CreatorCard
                             img={Verma}
