@@ -65,7 +65,7 @@ B[Open Folder] --> C[npm install --legacy-peer-deps] -->D[npm start]
 <tr align="center">
 <td>
 
-**ΛDIƬYΛ VΣЯMΛ**
+**ADITYA VERMA**
 
 <p align="center">
 <img src = "https://raw.githubusercontent.com/ADITYAVOFFICIAL/ADITYAVOFFICIAL/main/pics/adityav.png"  height="120" alt="Aditya Verma">
