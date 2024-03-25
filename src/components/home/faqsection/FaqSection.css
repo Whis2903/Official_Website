@@ -1,0 +1,48 @@
+.lan{
+  margin-top: 100px;
+  margin-bottom: -70px;
+}
+.accordion-collapse {
+  transition: height 0.3s ease;
+}
+
+/* Adjust other styles as needed */
+.accordion {
+  width: 80%;
+  margin: 0 auto; /* Align center */
+  margin-top: 20px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: #9e1ed9;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+  border-color: #9e1ed9;
+  font-family: "Syne";
+  font-weight: bold;
+}
+
+.accordion-button,
+.accordion-button:hover {
+  font-family: "Syne";
+  color: #ffffff;
+  background-color: #9e1ed9;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+  font-weight: bold;
+}
+
+.accordion-body {
+  font-family: "Syne";
+  color: #ffffff;
+  background-color: black;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+  border-color: transparent;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+  .accordion {
+    width: 100%;
+    margin: 0 auto; /* Align center */
+  }
+}
