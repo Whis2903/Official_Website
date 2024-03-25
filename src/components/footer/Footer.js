@@ -4,8 +4,6 @@ import { NavLink } from "react-router-dom";
 import CreatorCard from "./CreatorCard";
 import "./Footer.css";
 import Verma from "../../assets/CoreMembers/Aditya.jpg";
-import Gupta from "../../assets/Developers/gupta.png";
-import Vishal from "../../assets/Developers/vishal.png"; 
 
 
 function Footer() {
@@ -86,20 +84,6 @@ function Footer() {
                             role="Chairperson"
                           />
                   </Carousel.Item>
-                  <Carousel.Item>
-                          <CreatorCard
-                            img={Verma}
-                            title="Aditya Verma"
-                            role="Chairperson"
-                          />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                          <CreatorCard
-                            img={Vishal}
-                            title="Vishal Mohan Nair"
-                            role="R&D Head"
-                          />
-                    </Carousel.Item> 
                   </Carousel>
                 </div>
               </div>
