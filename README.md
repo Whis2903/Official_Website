@@ -86,3 +86,6 @@ B[Open Folder] --> C[npm install --legacy-peer-deps] -->D[npm start]
   <img src="https://contrib.rocks/image?repo=ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER" />
 </a>
 </div>
+
+#
+<p align="center">Made with love </p>
