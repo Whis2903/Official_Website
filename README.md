@@ -40,13 +40,14 @@ Founded in 2024, our chapter is dedicated to fostering learning, collaboration, 
 
 <p>Running website on Local Host</p>
 
+```mermaid
 flowchart LR
-    A(Round)
-    A --> B(Round)
-    B --> C(Round)
-    C --> D(Run npm install --legacy-peer-deps)
-    D --> E{Run npm start}
-
+A(Round)
+A[Clone Repo] --> B(Round)
+C(Round)
+B[Open Folder] --> C[Run npm install --legacy-peer-deps]
+C(round) --> [Run npm start]
+```
 
  ## 💻 Current Tech Stack
 <div style="display: inline_block"><br>
