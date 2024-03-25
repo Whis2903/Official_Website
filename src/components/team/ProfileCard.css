@@ -5,7 +5,7 @@
   padding: 25px 0;
   backdrop-filter: blur(10px); /* Apply blur effect */
   background-color: rgba(255, 255, 255, 0.15); 
-  transition: background-color 0.3s, transform 0.3s; /* Add transition */
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .custom-card:hover {
@@ -30,7 +30,10 @@
   width: 220px;
   height: 220px;
   border-radius: 10px;
-  border: 1px solid rgb(126, 126, 126);
+  border: 1px solid;
+  border-color: transparent!important;
+  box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Light purple color with alpha for glow effect */
+  animation: glow 3s infinite alternate;
 }
 
 .custom-card > .card-body > .card-title {
@@ -60,4 +63,39 @@
   color: var(--accent-color);
   font-size: 18px;
   font-weight: bold;
+}
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px rgba(153, 102, 255, 0.8); /* Initial glow */
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(153, 102, 255, 0.8); /* Medium glow */
+  }
+  100% {
+    box-shadow: 0 0 25px rgba(153, 102, 255, 0.8); /* Increased glow */
+  }
+}
+@media screen and (max-width: 768px) {
+  .custom-card {
+    width: calc(90%); 
+    padding: 20px 1px; /* Adjust padding */
+  }
+
+  .custom-card > img {
+    width: 180px; /* Adjust image width */
+    height: 180px; /* Adjust image height */
+  }
+
+  .custom-card > .card-body > .card-title {
+    font-size: 18px; /* Adjust font size */
+  }
+
+  .custom-card > .card-body > .card-text {
+    font-size: 16px; /* Adjust font size */
+  }
+
+  .custom-card > .card-body > .connect-button {
+    height: 40px; /* Adjust button height */
+    font-size: 16px; /* Adjust font size */
+  }
 }

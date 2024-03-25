@@ -72,7 +72,7 @@ textarea {
   .nav-link.active,
   .nav-link:focus {
     background-color: var(--secondary-color);
-    border-radius: 22px;
+    border-radius: 18px;
     color: var(--accent-color) !important;
   }
   .custom-contact {
