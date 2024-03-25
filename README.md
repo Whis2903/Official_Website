@@ -5,6 +5,7 @@
 ![PR](https://img.shields.io/github/issues-pr/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 ![Views](https://views.whatilearened.today/views/github/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p align="center">
   <a href="srmsigkdd.vercel.app">
