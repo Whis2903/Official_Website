@@ -88,4 +88,4 @@ B[Open Folder] --> C[npm install --legacy-peer-deps] -->D[npm start]
 </div>
 
 #
-<p align="center">Made with love </p>
+<p align="center">Made with love ❤️ <br> <b>TEAM ACM SIGKDD SRM KTR </b></p>
