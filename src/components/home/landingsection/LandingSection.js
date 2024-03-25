@@ -6,11 +6,24 @@ import orangeLine from "./images/orange-line.png";
 import purpleLine from "./images/purple-line.png";
 import blueLine from "./images/blue-line.png";
 import smPurpleLine from "./images/sm-purple-line.png";
-
+import { useState } from 'react';
+import Alert from 'react-bootstrap/Alert';
+import Button from 'react-bootstrap/Button';
 const LandingSection = (props) => {
+  const [show, setShow] = useState(true);
   return (
     <>
       <section className="landing-section section h-100vh" style={{marginTop:"50px"}}>
+      <Alert show={show} variant="success" className="alert-custom">
+  <Alert.Heading>Website Under Dev</Alert.Heading>
+  <p>Do not share the link of the website to anyone outside the club before launching</p>
+  <hr />
+  <div className="d-flex justify-content-end">
+    <Button onClick={() => setShow(false)} variant="outline-success">
+      Close alert
+    </Button>
+  </div>
+</Alert>
           <div className="container" style={{marginTop:"10px"}}>
             <div className="gbc1"></div>
             <div className="row justify-content-between mt-3">
