@@ -42,7 +42,7 @@ Official website of SIGKDD Student Chapter SRM KTR
   <img align="center" alt="Vercel" height="30" width="130" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vercel_logo_black.svg/2560px-Vercel_logo_black.svg.png">
 </div>
 
-<div><h2><strong>Developer of this repository 🔻</strong></h2></div>
+<div><h2><strong>Developer of this project 🔻</strong></h2></div>
 
 <table align="center">
 <tr align="center">
