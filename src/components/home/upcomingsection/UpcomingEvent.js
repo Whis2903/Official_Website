@@ -21,7 +21,7 @@ const UpcomingEvent = () => {
               <h2 className="section-title">
                 Our{" "}
                 <span style={{ color: "var(--secondary-color)" }}>
-                  Upcomming
+                  Upcoming
                 </span>{" "}
                 Events
               </h2>

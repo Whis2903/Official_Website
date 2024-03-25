@@ -148,3 +148,24 @@
     display: none;
   }
 }
+.alert-custom {
+  background-color: #141313; /* Gray background */
+  color: #ffffff; /* White text */
+  width: 80%; /* Set width to 80% */
+  margin: 0 auto; /* Center horizontally */
+}
+
+.alert-custom .alert-heading {
+  color: #ffffff;
+  font-weight: bold; /* White text for the heading */
+}
+.alert-custom .btn-outline-success {
+  color: #ffffff; /* White text */
+  background-color: #b833f6; /* Change button background color */
+  border-color: #b833f6; /* Change button border color */
+}
+
+.alert-custom .btn-outline-success:hover {
+  background-color: #cc62fc; /* Change button background color on hover */
+  border-color: #cc62fc; /* Change button border color on hover */
+}
