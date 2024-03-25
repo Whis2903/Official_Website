@@ -38,6 +38,16 @@ Founded in 2024, our chapter is dedicated to fostering learning, collaboration, 
       npm start
 <br>
 
+<p>Running website on Local Host</p>
+
+```mermaid
+flowchart LR
+A(Round)
+A[Clone Repo] --> B(Round)
+C(Round)
+B[Open Folder] --> C[Open index.html]
+```
+
  ## 💻 Current Tech Stack
 <div style="display: inline_block"><br>
   <img align="center" alt="Js" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
