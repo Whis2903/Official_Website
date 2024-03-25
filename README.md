@@ -16,8 +16,9 @@
 
   
 </p>
+
 Welcome to the official GitHub repository of the ACM SIGKDD Student Chapter at SRM Institute of Science and Technology, Kattankulathur!
-<br>
+
 This repository serves as the central hub for our Special Interest Group on Knowledge Discovery in Data (SIGKDD) activities. Join us as we explore the fascinating realm of data science and machine learning.
 
 Founded in 2024, our chapter is dedicated to fostering learning, collaboration, and innovation in data science within the SRM community and beyond. Stay tuned for exciting projects, resources, and events. Let's unlock the potential of data together!
