@@ -24,16 +24,16 @@ This repository serves as the central hub for our Special Interest Group on Know
 Founded in 2024, our chapter is dedicated to fostering learning, collaboration, and innovation in data science within the SRM community and beyond. Stay tuned for exciting projects, resources, and events. Let's unlock the potential of data together!
 <br>
 
-## Demo
+## Demo Screenshot of Home Page
 <img align="center" alt="Home Page"  src="https://raw.githubusercontent.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website/main/public/ss.png">
 
 ## Setting Up Fortuna
 
-1. Install Dependencies:
+1. Installing Dependencies:
     ```bash
        npm install --legacy-peer-deps
 
-2. Start Server:
+2. Starting the Server:
     ```bash
       npm start
 <br>
