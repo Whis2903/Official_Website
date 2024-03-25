@@ -1,14 +1,16 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badges)
+
 ![Status](https://img.shields.io/website-up-down-green-red/https/srmsigkdd.vercel.app/.svg)
-![Forks](https://img.shields.io/github/forks/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER.svg)
-![Issues](https://img.shields.io/github/issues/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER.svg)
-![PR](https://img.shields.io/github/issues-pr/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER.svg)
+![Forks](https://img.shields.io/github/forks/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
+![Issues](https://img.shields.io/github/issues/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
+![PR](https://img.shields.io/github/issues-pr/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
-![Views](https://views.whatilearened.today/views/github/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER.svg)
+![Views](https://views.whatilearened.today/views/github/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![GitHub repo size](https://img.shields.io/github/repo-size/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website)
 
 <p align="center">
   <a href="srmsigkdd.vercel.app">
-    <img alt = "Logo" width="250" src = "https://raw.githubusercontent.com/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/main/public/favicon-32x32.png">
+    <img alt = "Logo" height="150" width="150" src = "https://raw.githubusercontent.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website/main/public/favicon-32x32.png">
   </a>
 
 </p>
@@ -16,22 +18,37 @@
 
   
 </p>
-Official website of SIGKDD Student Chapter SRM KTR
+
+Welcome to the official GitHub repository of the ACM SIGKDD Student Chapter at SRM Institute of Science and Technology, Kattankulathur!
+
+This repository serves as the central hub for our Special Interest Group on Knowledge Discovery in Data (SIGKDD) activities. Join us as we explore the fascinating realm of data science and machine learning.
+
+Founded in 2024, our chapter is dedicated to fostering learning, collaboration, and innovation in data science within the SRM community and beyond. Stay tuned for exciting projects, resources, and events. Let's unlock the potential of data together!
 <br>
 
-## Demo
-<img align="center" alt="Home Page"  src="https://raw.githubusercontent.com/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/main/public/ss.png">
+## Demo Screenshot of Home Page
+<img align="center" alt="Home Page"  src="https://raw.githubusercontent.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website/main/public/ss.png">
 
 ## Setting Up Fortuna
 
-1. Install Dependencies:
+1. Installing Dependencies:
     ```bash
        npm install --legacy-peer-deps
 
-2. Start Server:*
+2. Starting the Server:
     ```bash
       npm start
 <br>
+
+<p>Running website on Local Host</p>
+
+```mermaid
+flowchart LR
+A(Round)
+A[Git Clone] --> B(Round)
+C(Round)
+B[Open Folder] --> C[npm install --legacy-peer-deps] -->D[npm start]
+```
 
  ## 💻 Current Tech Stack
 <div style="display: inline_block"><br>
@@ -42,7 +59,7 @@ Official website of SIGKDD Student Chapter SRM KTR
   <img align="center" alt="Vercel" height="30" width="130" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vercel_logo_black.svg/2560px-Vercel_logo_black.svg.png">
 </div>
 
-<div><h2><strong>Developer of this repository 🔻</strong></h2></div>
+<div><h2><strong>Developer of this project 🔻</strong></h2></div>
 
 <table align="center">
 <tr align="center">
@@ -71,3 +88,6 @@ Official website of SIGKDD Student Chapter SRM KTR
   <img src="https://contrib.rocks/image?repo=ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER" />
 </a>
 </div>
+
+#
+<p align="center">Made with love ❤️ <br> <b>TEAM ACM SIGKDD SRM KTR </b></p>
