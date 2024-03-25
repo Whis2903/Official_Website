@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="srmsigkdd.vercel.app">
-    <img alt = "Logo" width="250" src = "https://raw.githubusercontent.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website/main/public/favicon-32x32.png">
+    <img alt = "Logo" height="150" width="150" src = "https://raw.githubusercontent.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website/main/public/favicon-32x32.png">
   </a>
 
 </p>
@@ -28,7 +28,7 @@ Official website of SIGKDD Student Chapter SRM KTR
     ```bash
        npm install --legacy-peer-deps
 
-2. Start Server:*
+2. Start Server:
     ```bash
       npm start
 <br>
