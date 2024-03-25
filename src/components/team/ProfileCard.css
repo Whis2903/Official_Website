@@ -75,3 +75,27 @@
     box-shadow: 0 0 25px rgba(153, 102, 255, 0.8); /* Increased glow */
   }
 }
+@media screen and (max-width: 768px) {
+  .custom-card {
+    width: calc(90%); 
+    padding: 20px 1px; /* Adjust padding */
+  }
+
+  .custom-card > img {
+    width: 180px; /* Adjust image width */
+    height: 180px; /* Adjust image height */
+  }
+
+  .custom-card > .card-body > .card-title {
+    font-size: 18px; /* Adjust font size */
+  }
+
+  .custom-card > .card-body > .card-text {
+    font-size: 16px; /* Adjust font size */
+  }
+
+  .custom-card > .card-body > .connect-button {
+    height: 40px; /* Adjust button height */
+    font-size: 16px; /* Adjust font size */
+  }
+}
