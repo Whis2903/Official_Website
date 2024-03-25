@@ -31,7 +31,7 @@
   height: 220px;
   border-radius: 10px;
   border: 1px solid;
-  border-color: #9966FF!important;
+  border-color: transparent!important;
   box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Light purple color with alpha for glow effect */
   animation: glow 3s infinite alternate;
 }
