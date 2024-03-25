@@ -136,29 +136,29 @@ function Team() {
                           img={Gupta}
                           name="Aditya Gupta"
                           role="Web Master"
-                          linkedinUrl="https://www.linkedin.com/in/"
-                          githubUrl="https://github.com/ADITYAVOFFICIAL/"
+                          // linkedinUrl="https://www.linkedin.com/in/"
+                          // githubUrl="https://github.com/ADITYAVOFFICIAL/"
                         />
                         <ProfileCard
                           img={Yamika}
                           name="Yamika Chauhan"
                           role="Secretary"
-                          linkedinUrl="https://www.linkedin.com/in/"
-                          githubUrl="https://github.com/ADITYAVOFFICIAL/"
+                          // linkedinUrl="https://www.linkedin.com/in/"
+                          // githubUrl="https://github.com/ADITYAVOFFICIAL/"
                         />
                         <ProfileCard
                           img={Medha}
                           name="Medha "
                           role="Treasurer"
-                          linkedinUrl="https://www.linkedin.com/in/"
-                          githubUrl="https://github.com/ADITYAVOFFICIAL/"
+                          // linkedinUrl="https://www.linkedin.com/in/"
+                          // githubUrl="https://github.com/ADITYAVOFFICIAL/"
                         />
                         <ProfileCard
                           img={Vaibhav}
                           name="Vaibhav Singh"
                           role="Membership Chairperson "
-                          linkedinUrl="https://www.linkedin.com/in/"
-                          githubUrl="https://github.com/ADITYAVOFFICIAL/"
+                          // linkedinUrl="https://www.linkedin.com/in/"
+                          // githubUrl="https://github.com/ADITYAVOFFICIAL/"
                         />
                       </>
                     }
@@ -196,7 +196,7 @@ function Team() {
                           img={Kalpana}
                           name="Dr. Kalpana AV"
                           role="Faculty Co-ordinator"
-                          linkedinUrl="https://www.linkedin.com/in/"
+                          // linkedinUrl="https://www.linkedin.com/in/"
                         />
                          <ProfileCard
                           img={PCKar}
@@ -246,8 +246,8 @@ function Team() {
                           img={Ansh}
                           name="Ansh Semwal"
                           role="Corporate Head"
-                          linkedinUrl="https://www.linkedin.com/in/"
-                          githubUrl="https://github.com/"
+                          // linkedinUrl="https://www.linkedin.com/in/"
+                          // githubUrl="https://github.com/"
                         />
                          <ProfileCard
                           img={Krishna}
