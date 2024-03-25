@@ -43,7 +43,7 @@ Founded in 2024, our chapter is dedicated to fostering learning, collaboration, 
 ```mermaid
 flowchart LR
 A(Round)
-A[Clone Repo] --> B(Round)
+A[Git Clone] --> B(Round)
 C(Round)
 B[Open Folder] --> C[npm install --legacy-peer-deps] -->D[npm start]
 ```
