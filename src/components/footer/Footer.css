@@ -10,13 +10,17 @@
 }
 
 @keyframes glow {
-  from {
+  0% {
     box-shadow: 0 0 5px rgba(153, 102, 255, 0.8); /* Initial glow */
   }
-  to {
+  50% {
+    box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Medium glow */
+  }
+  100% {
     box-shadow: 0 0 40px rgba(153, 102, 255, 0.8); /* Increased glow */
   }
 }
+
 
 .footer-container {
   padding: 0px 0px 100px 0px;
