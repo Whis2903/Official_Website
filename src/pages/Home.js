@@ -5,7 +5,7 @@ import LandingSection from '../components/home/landingsection/LandingSection'
 import PastEvents from '../components/home/pastevents/PastEvents'
 import UpcomingEvent from '../components/home/upcomingsection/UpcomingEvent'
 import SponsorSection from '../components/home/sponsorsection/SponsorSection'
-
+import { InstagramEmbed } from 'react-social-media-embed'
 function Home() { 
   return (
     <>
@@ -18,6 +18,9 @@ function Home() {
     <SponsorSection />
     {/* <PastEvents /> */}
     {/* <BlogSection /> */}
+    <div style={{ display: 'flex', justifyContent: 'center'}}>
+  <InstagramEmbed url="https://www.instagram.com/srmsigkdd" width={500} style={{borderRadius:"15px"}}/>
+</div>
     </>
   )
 }

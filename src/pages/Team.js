@@ -22,6 +22,7 @@ import PCKar from "../assets/CoreMembers/drpckar.jpeg";
 import Vishal from "../assets/Developers/vishal.png";
 import Ansh from "../assets/CoreMembers/ansh.png";
 import Gupta from "../assets/Developers/gupta.png";
+
 function Team() {
   return (
     <>
