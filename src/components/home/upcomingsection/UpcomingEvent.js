@@ -2,6 +2,7 @@ import React from "react";
 import "./UpcomingEvent.css";
 import coming from "../../../assets/Events/coming.png";
 import TimeStamp from "./TimeStamp";
+import { Card,Button } from "react-bootstrap";
 
 const UpcomingEvent = () => {
   return (
@@ -18,32 +19,53 @@ const UpcomingEvent = () => {
                 </span>{" "}
                 Events
               </h2>
-              <p className="section-subtitle">
+              <p className="section-subtitle" style={{marginBottom:"40px"}}>
               Exciting developments are currently underway for our upcoming events.
               </p>
             </div>
           </div>
         </div>
         <div className="container">
-          <div className="d-flex justify-content-around mx-auto">
-            <TimeStamp
-              img={coming}
-              title="Yet to be decided"
-              url="https://linktr.ee/srmsigkdd"
-            />
-            <TimeStamp
-              img={coming}
-              title="Yet to be decided"
-              url="https://linktr.ee/srmsigkdd"
-            />
-            <TimeStamp
-              img={coming}
-              title="Yet to be decided"
-              url="https://linktr.ee/srmsigkdd"
-            />
-          </div>
-        </div>
-        <div className="bar"></div>
+  <div className="row justify-content-center">
+    <div className="col-lg-3 col-md-3 col-sm-3">
+      <Card className="bg-black text-white glow mobcard">
+        <Card.Img variant="top" src={coming}  style={{ borderWidth: '0px' ,borderRadius:"18px 18px 20px 20px"}}/>
+        <Card.Body>
+          <Card.Title>Card Title</Card.Title>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </Card.Text>
+          <Button variant="primary"className="custom-button">Go somewhere</Button>
+        </Card.Body>
+      </Card>
+    </div>
+    <div className="col-lg-3 col-md-3 col-sm-3">
+      <Card className="bg-black text-white glow mobcard">
+        <Card.Img variant="top" src={coming}  style={{ borderWidth: '0px' ,borderRadius:"18px 18px 20px 20px"}}/>
+        <Card.Body>
+          <Card.Title>Card Title</Card.Title>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </Card.Text>
+          <Button variant="primary" className="custom-button">Go somewhere</Button>
+        </Card.Body>
+      </Card>
+    </div>
+    <div className="col-lg-3 col-md-3 col-sm-3">
+      <Card className="bg-black text-white glow mobcard">
+        <Card.Img variant="top" src={coming}  style={{ borderWidth: '0px' ,borderRadius:"18px 18px 20px 20px"}}/>
+        <Card.Body>
+          <Card.Title>Card Title</Card.Title>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </Card.Text>
+          <Button variant="primary"className="custom-button">Go somewhere</Button>
+        </Card.Body>
+      </Card>
+    </div>
+  </div>
+</div>
+
       </section>
     </>
   );

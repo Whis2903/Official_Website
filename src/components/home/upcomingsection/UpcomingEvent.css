@@ -1,0 +1,41 @@
+.card{
+    border-radius: 20px!important;
+    
+}
+
+.glow{
+
+box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Light purple color with alpha for glow effect */
+animation: glow 3s infinite alternate; /* Apply animation for breathing effect */
+}
+.custom-button {
+    font-weight: 550;
+    background-color: #8000ff;
+    border-color: #8000ff; /* Change to your desired background color */
+    color: white; /* Change to your desired text color */
+  }
+  .custom-button:hover {
+    background-color: #8000ff;
+    border-color: #8000ff;
+    box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Light purple color with alpha for glow effect */
+  }
+
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 5px rgba(153, 102, 255, 0.8); /* Initial glow */
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Medium glow */
+    }
+    100% {
+      box-shadow: 0 0 40px rgba(153, 102, 255, 0.8); /* Increased glow */
+    }
+  }
+  
+@media screen and (max-width: 576px) {
+    .mobcard {
+        margin-bottom: 35px;
+        width: calc(80%); 
+    }
+  }
+  
