@@ -1,14 +1,14 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badges)
 ![Status](https://img.shields.io/website-up-down-green-red/https/srmsigkdd.vercel.app/.svg)
-![Forks](https://img.shields.io/github/forks/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
-![Issues](https://img.shields.io/github/issues/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
-![PR](https://img.shields.io/github/issues-pr/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
+![Forks](https://img.shields.io/github/forks/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER.svg)
+![Issues](https://img.shields.io/github/issues/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER.svg)
+![PR](https://img.shields.io/github/issues-pr/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
-![Views](https://views.whatilearened.today/views/github/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
+![Views](https://views.whatilearened.today/views/github/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER.svg)
 
 <p align="center">
   <a href="srmsigkdd.vercel.app">
-    <img alt = "Logo" width="250" src = "https://raw.githubusercontent.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website/main/public/favicon-32x32.png">
+    <img alt = "Logo" width="250" src = "https://raw.githubusercontent.com/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/main/public/favicon-32x32.png">
   </a>
 
 </p>
@@ -20,7 +20,7 @@ Official website of SIGKDD Student Chapter SRM KTR
 <br>
 
 ## Demo
-<img align="center" alt="Home Page"  src="https://raw.githubusercontent.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website/main/public/ss.png">
+<img align="center" alt="Home Page"  src="https://raw.githubusercontent.com/ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/main/public/ss.png">
 
 ## Setting Up Fortuna
 
@@ -36,8 +36,10 @@ Official website of SIGKDD Student Chapter SRM KTR
  ## 💻 Current Tech Stack
 <div style="display: inline_block"><br>
   <img align="center" alt="Js" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="React" height="50" width="60" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png">
-  <img align="center" alt="NODEJS" height="50" width="50" src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png">
+  <img align="center" alt="React" height="45" width="55" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png">
+  <img align="center" alt="NODEJS" height="50" width="45" src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png">
+  <img align="center" alt="REACTBOOTSTRAP" height="50" width="50" src="https://justinmahar.gallerycdn.vsassets.io/extensions/justinmahar/react-bootstrap-snippets/2.1.6/1702059788235/Microsoft.VisualStudio.Services.Icons.Default">
+  <img align="center" alt="Vercel" height="30" width="130" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vercel_logo_black.svg/2560px-Vercel_logo_black.svg.png">
 </div>
 
 <div><h2><strong>Developer of this repository 🔻</strong></h2></div>
@@ -65,7 +67,7 @@ Official website of SIGKDD Student Chapter SRM KTR
 
  ## Current Contributors 🔻
 <div align="center">
-  <a href="https://github.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website" />
+  <a href="https://github.com/ADITYAVOFFICIAL/Fortuna/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER" />
 </a>
 </div>
