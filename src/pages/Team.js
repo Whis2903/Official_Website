@@ -247,7 +247,7 @@ function Team() {
                           name="Ansh Semwal"
                           role="Corporate Head"
                           // linkedinUrl="https://www.linkedin.com/in/"
-                          // githubUrl="https://github.com/"
+                          githubUrl="https://github.com/anshsemwal"
                         />
                          <ProfileCard
                           img={Krishna}
