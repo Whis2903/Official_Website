@@ -136,29 +136,29 @@ function Team() {
                           img={Gupta}
                           name="Aditya Gupta"
                           role="Web Master"
-                          // linkedinUrl="https://www.linkedin.com/in/"
-                          // githubUrl="https://github.com/ADITYAVOFFICIAL/"
+                          linkedinUrl="https://www.linkedin.com/in/aditya-gupta-475328252"
+                          githubUrl="https://github.com/AdityaGupta0001"
                         />
                         <ProfileCard
                           img={Yamika}
                           name="Yamika Chauhan"
                           role="Secretary"
-                          // linkedinUrl="https://www.linkedin.com/in/"
-                          // githubUrl="https://github.com/ADITYAVOFFICIAL/"
+                          linkedinUrl="https://www.linkedin.com/in/yamika-chauhan-442235207/"
+                          githubUrl="https://github.com/yambamfam"
                         />
                         <ProfileCard
                           img={Medha}
                           name="Medha "
                           role="Treasurer"
-                          // linkedinUrl="https://www.linkedin.com/in/"
-                          // githubUrl="https://github.com/ADITYAVOFFICIAL/"
+                          linkedinUrl="https://www.linkedin.com/in/medha-srivastava-82257b252"
+                          githubUrl="https://github.com/khushicbilko"
                         />
                         <ProfileCard
                           img={Vaibhav}
                           name="Vaibhav Singh"
                           role="Membership Chairperson "
-                          // linkedinUrl="https://www.linkedin.com/in/"
-                          // githubUrl="https://github.com/ADITYAVOFFICIAL/"
+                          linkedinUrl="https://www.linkedin.com/in/vaibhav-singh-b66969280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                          githubUrl="https://github.com/Vaibhav964724"
                         />
                       </>
                     }
@@ -277,6 +277,7 @@ function Team() {
                           name="Himanshu Sharma"
                           role="Web/App Dev Lead"
                           linkedinUrl="https://www.linkedin.com/in/himanshuexe/"
+                          githubUrl="https://github.com/himuexe"
                         />
                       </>
                     }
