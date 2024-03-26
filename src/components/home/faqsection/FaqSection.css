@@ -41,6 +41,9 @@
 }
 
 @media screen and (max-width: 576px) {
+  .title{
+    font-size: 32px;
+  }
   .accordion {
     width: 100%;
     margin: 0 auto; /* Align center */

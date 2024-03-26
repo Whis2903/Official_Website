@@ -43,6 +43,9 @@ animation: glow 3s infinite alternate; /* Apply animation for breathing effect *
   }
   
 @media screen and (max-width: 576px) {
+  .section{
+    margin-top: -50px;
+  }
     .mobcard {
         margin-bottom: 35px;
         width: calc(80%); 

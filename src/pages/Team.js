@@ -49,7 +49,7 @@ function Team() {
           tab="year2023-tab"
           className="tab-pane fade show active"
           content={
-            <section className="section" style={{ paddingTop: "40px" }}>
+            <section className="section">
               <div className="container">
                 <div className="bbc1"></div>
                 <div className="row">
