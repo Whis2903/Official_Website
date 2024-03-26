@@ -26,9 +26,8 @@ import Gupta from "../assets/Developers/gupta.png";
 function Team() {
   return (
     <>
-      <TeamCarousel />
       <div className="gbc1"></div>
-      <ul className="nav nav-tabs justify-content-center" role="tablist">
+      <ul className="nav nav-tabs justify-content-center" role="tablist"  style={{marginTop:"130px"}}>
         <Tab
           className="nav-link tab-btn active"
           id="year2023-tab"
@@ -50,7 +49,7 @@ function Team() {
           tab="year2023-tab"
           className="tab-pane fade show active"
           content={
-            <section className="section" style={{ paddingTop: "40px" }}>
+            <section className="section">
               <div className="container">
                 <div className="bbc1"></div>
                 <div className="row">

@@ -21,6 +21,10 @@
 }
 
 @media (max-width: 576px) {
+  .ourr{
+    margin-top: -180px;
+    font-size: 32px;
+  }
   .eventname {
     font-weight: bold;
     background-color: black;

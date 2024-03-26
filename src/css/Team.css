@@ -2,7 +2,9 @@
   margin-top: 50px;
   margin-bottom: 44px;
 }
-
+.section{
+  padding-top: 20px;
+}
 .tab-btn {
   margin: 0px;
 }
@@ -30,5 +32,8 @@
   .carousel-item > img {
     height: 250px !important;
     width: 100% !important;
+  }
+  .section{
+    padding-top: 70px;
   }
 }

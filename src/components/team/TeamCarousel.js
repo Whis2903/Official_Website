@@ -6,9 +6,10 @@ import "./teamslide.css";
 
 function TeamCarousel() {
   const [isPlaying, setIsPlaying] = useState(false);
+  // eslint-disable-next-line
   const [quality, setQuality] = useState("hd1080"); // Set quality to 1080p
   const playerRef = useRef(null);
-
+// eslint-disable-next-line
   const handlePlayPause = () => {
     setIsPlaying(!isPlaying);
     if (playerRef.current) {
@@ -19,8 +20,15 @@ function TeamCarousel() {
   return (
     <section className="section">
       <div className="container conty">
-        <div className="row justify-content-center">
-          <div className="col-sm-5 col-lg-9 w-100vw">
+        <div className="row justify-content-center text-center">
+          <div className="col-sm-5 col-lg-9 w-100vw text-center">
+          <h1 className="title ourr" style={{marginBottom:"20px"}}>
+                Our
+                {" "}
+                <span style={{ color: "var(--secondary-color)" }}>
+                  Gallery
+                </span>{" "}
+              </h1>
             <Carousel fade slide className="carousel-glow" interval={null}>
               <Carousel.Item>
                 <div style={{ width: "100%", height: "110%", borderRadius: "22px", overflow: "hidden" }}>
