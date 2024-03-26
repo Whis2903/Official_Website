@@ -24,9 +24,9 @@ function Home() {
     {/* <PastEvents /> */}
     {/* <BlogSection /> */}
     
-    <div style={{ display: 'flex', justifyContent: 'center',marginBottom:"50px"}}>
+    {/* <div style={{ display: 'flex', justifyContent: 'center',marginBottom:"50px"}}>
   <InstagramEmbed url="https://www.instagram.com/srmsigkdd" width={500} style={{borderRadius:"15px"}}/>
-</div>
+</div> */}
     </>
   )
 }

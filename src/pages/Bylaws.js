@@ -5,7 +5,7 @@ function Bylaws() {
   return (
     <>
     <section className="section">
-        <div className="container" style={{marginTop:"80px"}}>
+        <div className="container" style={{marginTop:"100px"}}>
           <div className="gbc1"></div>
           <div className="row ">
             <div className="col-md-12 text-center">
