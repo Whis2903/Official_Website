@@ -89,6 +89,9 @@ function NavbarComponent() {
               <Nav.Link as={HashLink} to="/home#upcomingevents" style={{fontWeight:"bolder"}}>
                 Events
               </Nav.Link>
+              <Nav.Link as={NavLink} to="/bylaws" style={{fontWeight:"bolder"}}>
+                Bylaws
+              </Nav.Link>
               <Nav.Link
                 href="https://onboard.stackup.dev/community/srmsigkdd"
                 target="_blank" style={{fontWeight:"bolder"}}
