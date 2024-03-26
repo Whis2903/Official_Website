@@ -13,7 +13,7 @@ const LandingSection = (props) => {
   const [show, setShow] = useState(true);
   return (
     <>
-      <section className="landing-section section h-100vh" style={{marginTop:"50px"}}>
+      <section className="landing-section section h-100vh" style={{marginTop:"80px"}}>
       <Alert show={show} variant="success" className="alert-custom">
   <Alert.Heading>Website Under Dev</Alert.Heading>
   <p>Do not share the link of the website to anyone outside the club before launching</p>
