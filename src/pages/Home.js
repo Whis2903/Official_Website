@@ -7,6 +7,8 @@ import UpcomingEvent from '../components/home/upcomingsection/UpcomingEvent'
 import SponsorSection from '../components/home/sponsorsection/SponsorSection'
 import FaqSection from "../components/home/faqsection/FaqSection"
 import { InstagramEmbed } from 'react-social-media-embed'
+import TeamCarousel from "../components/team/TeamCarousel";
+
 function Home() { 
   return (
     <>
@@ -16,6 +18,7 @@ function Home() {
         link="/team"
       />
     <UpcomingEvent />
+    <TeamCarousel />
     <FaqSection/>
     <SponsorSection />
     {/* <PastEvents /> */}
