@@ -16,7 +16,7 @@ const PastEvents = () => {
   };
 
   return (
-    <section className="section h-100vh" id="pastevent" style={{marginTop:"100px"}}>
+    <section className="section h-100vh" id="pastevent" style={{marginTop:"100px",marginBottom:"50px"}}>
       <div className="container">
         <div className="gbc2"></div>
         <div className="row">
