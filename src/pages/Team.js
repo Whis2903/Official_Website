@@ -1,9 +1,11 @@
 import React from "react";
 import "../css/Team.css";
 import ProfileCard from "../components/team/ProfileCard";
+// eslint-disable-next-line
 import TeamCarousel from "../components/team/TeamCarousel";
 import Tab from "../components/team/tabbar/Tab";
 import TabContent from "../components/team/tabbar/TabContent";
+// eslint-disable-next-line
 import Sample from "../assets/CoreMembers/Sample.png";
 import Sahil from "../assets/CoreMembers/Sahil.jpg";
 import Aditya from "../assets/CoreMembers/Aditya.jpg";
