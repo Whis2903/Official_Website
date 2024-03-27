@@ -3,6 +3,7 @@ import "./SponsorSection.css";
 import srmLogo from "../sponsorsection/images/srm.svg"; 
 import dsbslogo from "../sponsorsection/images/dsbs.png";
 import acmlogo from "../sponsorsection/images/acm.png";
+import sigkdd from "../sponsorsection/images/sigkdd.png"
 const SponsorSection = (props) => {
   return (
     <>
@@ -22,16 +23,18 @@ const SponsorSection = (props) => {
             </div>
           </div>
           <div className="container">
-  <div className="row justify-content-center">
-    <div className="col-lg-4 text-center"> {/* Reduced column width to accommodate equal spacing */}
+  <div className="row justify-content-around"> {/* Changed justify-content-center to justify-content-around */}
+    <div className="col-lg-3 text-center mb-4"> {/* Adjusted column width to accommodate equal spacing */}
       <img src={srmLogo} alt="SRM Logo" className="srm-logo" style={{ height: "100px", marginTop: "20px" }} />
     </div>
-    <div className="col-lg-4"></div> {/* Added an empty column for equal spacing */}
-    <div className="col-lg-4 text-center"> {/* Reduced column width to accommodate equal spacing */}
+    <div className="col-lg-3 text-center mb-4"> {/* Adjusted column width to accommodate equal spacing */}
       <img src={dsbslogo} alt="DSBS Logo" className="srm-logo" style={{ height: "100px", marginTop: "20px" }} />
     </div>
-    <div className="col-lg-4 text-center"> {/* Reduced column width to accommodate equal spacing */}
-      <img src={acmlogo} alt="ACM Logo" className="srm-logo" style={{ height: "100px", marginTop: "-130px" }} /> {/* Adjusted margin-top */}
+    <div className="col-lg-3 text-center mb-4"> {/* Adjusted column width to accommodate equal spacing */}
+      <img src={sigkdd} alt="SIGKDD Logo" className="srm-logo" style={{ height: "100px", marginTop: "20px" }} />
+    </div>
+    <div className="col-lg-3 text-center mb-4"> {/* Adjusted column width to accommodate equal spacing */}
+      <img src={acmlogo} alt="ACM Logo" className="srm-logo" style={{ height: "100px", marginTop: "20px" }} />
     </div>
   </div>
 </div>

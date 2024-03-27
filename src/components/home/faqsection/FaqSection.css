@@ -15,9 +15,9 @@
 
 .accordion-button:not(.collapsed) {
   color: #ffffff;
-  background-color: #9e1ed9;
+  background-color: #57abd7;
   box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
-  border-color: #9e1ed9;
+  border-color: #57abd7;
   font-family: "Syne";
   font-weight: bold;
 }
@@ -26,7 +26,7 @@
 .accordion-button:hover {
   font-family: "Syne";
   color: #ffffff;
-  background-color: #9e1ed9;
+  background-color: #57abd7;
   box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
   font-weight: bold;
 }
