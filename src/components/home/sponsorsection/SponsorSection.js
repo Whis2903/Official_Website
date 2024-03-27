@@ -1,6 +1,5 @@
 import React from "react";
 import "./SponsorSection.css";
-import { NavLink } from "react-router-dom";
 import srmLogo from "../sponsorsection/images/srm.svg"; 
 import dsbslogo from "../sponsorsection/images/dsbs.png";
 import acmlogo from "../sponsorsection/images/acm.png";
