@@ -197,12 +197,12 @@ function NavbarComponent() {
                         </Form.Group>
                       </Row>
                       <Row className="mb-3">
-                      <Form.Group as={Col} md="12" controlId="validationCustom03">
+                        <Form.Group as={Col} md="12" controlId="validationCustom03">
                           <Form.Label style={{fontWeight:"bold"}}>Subject</Form.Label>
                           <Form.Control
                             required
                             as="textarea" rows={1}
-                            placeholder                            ="Type your subject here..."
+                            placeholder="Type your subject here..."
                             name="Subject"
                           />
                           <Form.Control.Feedback type="invalid">
