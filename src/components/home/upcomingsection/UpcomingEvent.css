@@ -22,7 +22,7 @@ animation: glow 3s infinite alternate; /* Apply animation for breathing effect *
   .custom-button:hover {
     background-color: #57abd7;
     border-color: #57abd7;
-    box-shadow: 0 0 20px rgba(87, 171, 215, 0.8); /* Light purple color with alpha for glow effect */
+    box-shadow: 0 0 20px rgba(87, 171, 215, 0.8);
   }
   .custom-button:active{
     background-color: #57abd7;

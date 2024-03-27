@@ -66,7 +66,17 @@
   overflow: hidden;
   position: relative;
 }
-
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px rgba(87, 171, 215, 0.8); /* Initial glow */
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(87, 171, 215, 0.8); /* Medium glow */
+  }
+  100% {
+    box-shadow: 0 0 40px rgba(87, 171, 215, 0.8); /* Increased glow */
+  }
+}
 .profile-info span {
   padding: 0px 10px;
   color: #ffffff;
@@ -118,6 +128,7 @@
     left: calc(50% - 130px);
     font-size: 18px;
     margin-top: -20px;
+    box-shadow: 0 0 20px rgba(87, 171, 215, 0.8);
   }
 
   .dashed-line-divider,
@@ -157,4 +168,7 @@
 .alert-custom .btn-outline-success:hover {
   background-color: #57abd7; /* Change button background color on hover */
   border-color: #57abd7; /* Change button border color on hover */
+}
+.btn{
+  box-shadow: 0 0 20px rgba(87, 171, 215, 0.8);
 }
