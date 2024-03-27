@@ -23,8 +23,9 @@ function Home() {
     <UpcomingEvent />
     <TeamCarousel />
     <FaqSection/>
+    <PastEvents />
     <SponsorSection />
-    {/* <PastEvents /> */}
+   
     {/* <BlogSection /> */}
     
     {/* <div style={{ display: 'flex', justifyContent: 'center',marginBottom:"50px"}}>

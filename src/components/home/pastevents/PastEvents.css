@@ -4,10 +4,15 @@
   background-color: var(--secondary-color);
   border-radius: 50%;
 }
+.imgg{
+  height: 100%;
+  width: 100%;
+  border-radius: 22px;
+}
 
 @media (max-width: 768px) {
   .slider-single-content > img {
-    height: 250px !important;
-    width: 250px !important;
+    height: 70%!important;
+    width: 100% !important;
   }
 }

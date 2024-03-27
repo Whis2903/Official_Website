@@ -105,7 +105,7 @@
 
 @media (max-width: 768px) {
   .landing-section {
-    margin: 20px 0px !important;
+    margin-top: 60px!important;
   }
 
   .title {

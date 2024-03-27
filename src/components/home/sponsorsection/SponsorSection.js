@@ -6,7 +6,7 @@ import acmlogo from "../sponsorsection/images/acm.png";
 const SponsorSection = (props) => {
   return (
     <>
-      <section className="landing-section section h-70vh" style={{marginTop:"180px"}}>
+      <section className="landing-section section h-70vh" style={{marginTop:"100px"}}>
         <div className="container" style={{ marginTop: "-110px" }}>
           <div className="gbc1"></div>
           <div className="row justify-content-center text-center">

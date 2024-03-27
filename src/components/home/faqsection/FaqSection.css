@@ -41,6 +41,9 @@
 }
 
 @media screen and (max-width: 576px) {
+  .classy{
+    margin-bottom: -200px;
+  }
   .title{
     font-size: 32px;
   }

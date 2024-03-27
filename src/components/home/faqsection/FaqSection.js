@@ -5,7 +5,7 @@ const FaqSection = (props) => {
   return (
     <>
       <section className="landing-section section h-70vh lan">
-        <div className="container" style={{ marginTop: "-90px" }}>
+        <div className="container classy" style={{ marginTop: "-90px" }}>
           <div className="gbc1"></div>
           <div className="row justify-content-center text-center">
             <div className="col-lg-10 text-center">
