@@ -3,7 +3,6 @@ import "./PastEvents.css";
 import { Carousel } from "3d-react-carousal";
 import flutter from "../../../assets/Events/sample.png";
 import AutoFinal from "../../../assets/Events/sample.png";
-// npm install 3d-react-carousal --force
 
 const PastEvents = () => {
   let slides = [

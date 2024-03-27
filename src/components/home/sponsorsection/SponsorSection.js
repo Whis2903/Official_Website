@@ -13,8 +13,7 @@ const SponsorSection = (props) => {
           <div className="row justify-content-center text-center">
             <div className="col-lg-10 text-center">
               <h1 className="title">
-                Our
-                <br />
+                Our{" "}
                 <span style={{ color: "var(--secondary-color)" }}>
                   Sponsors
                 </span>{" "}

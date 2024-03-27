@@ -40,7 +40,7 @@ const UpcomingEvent = () => {
       <Card className="bg-black text-white glow mobcard">
         <Card.Img variant="top" src={coming}  style={{ borderWidth: '0px' ,borderRadius:"18px 18px 20px 20px"}}/>
         <Card.Body>
-          <Card.Title  className="custom-text" style={{fontSize:"26px"}}>Event</Card.Title>
+          <Card.Title  className="custom-text" style={{fontSize:"26px"}}>Event Name</Card.Title>
           <Card.Subtitle style={{marginBottom:"5px",fontWeight:"550"}}><FontAwesomeIcon icon={faMoneyBill} style={{ marginRight: "6px" }} />FREE</Card.Subtitle>
           <Card.Subtitle style={{marginBottom:"5px",fontWeight:"550"}}><FontAwesomeIcon icon={faCalendar} style={{ marginRight: "6px",marginTop:"8px" }} />1 April 2024</Card.Subtitle>
           <Card.Subtitle style={{marginBottom:"5px",fontWeight:"550"}}><FontAwesomeIcon icon={faLocationArrow} style={{ marginRight: "6px",marginTop:"8px" }} />SRM IST KTR</Card.Subtitle>

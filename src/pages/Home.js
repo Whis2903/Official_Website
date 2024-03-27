@@ -24,6 +24,7 @@ function Home() {
     <TeamCarousel />
     <FaqSection/>
     <PastEvents />
+    <div className='container'></div>
     <SponsorSection />
    
     {/* <BlogSection /> */}
