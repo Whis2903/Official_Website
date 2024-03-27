@@ -75,12 +75,12 @@ function NavbarComponent() {
         className="custom-navbar"
       >
         <Container>
-          <Navbar.Brand
+          <Navbar.Brand className="namee"
             href="/home"
             style={{ fontFamily: "Syne", color: "var(--secondary-color)" }}
           >
             <img src={SRMSIGKDD} width="70" height="60" alt="srm sigkdd logo" style={{paddingRight:"10px"}}/>
-            SIGKDD SRM KTR Student Chapter
+            SIGKDD Student Chapter SRM KTR
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" style={{marginTop: "24px", marginLeft: "auto"}} />
           <Navbar.Collapse id="basic-navbar-nav">

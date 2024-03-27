@@ -3,6 +3,7 @@ import "./PastEvents.css";
 import { Carousel } from "3d-react-carousal";
 import flutter from "../../../assets/Events/sample.png";
 import AutoFinal from "../../../assets/Events/sample.png";
+// npm install 3d-react-carousal --force
 
 const PastEvents = () => {
   let slides = [
@@ -19,7 +20,7 @@ const PastEvents = () => {
       <div className="container">
         <div className="gbc2"></div>
         <div className="row">
-          <div className="text-center">
+          <div className="text-center" style={{marginBottom:"20px"}}>
             <h2 className="section-title">
               Our{" "}
               <span style={{ color: "var(--secondary-color)" }}>Past</span>{" "}
@@ -33,7 +34,8 @@ const PastEvents = () => {
             {" "}
             <Carousel
               slides={slides}
-              interval={1000}
+              interval={2000}
+              autoplay={true}
               onSlideChange={callback}
             />
           </div>

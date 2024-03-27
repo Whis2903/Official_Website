@@ -83,6 +83,9 @@ textarea {
   .custom-contact > .nav-link {
     color: var(--bs-nav-link-color);
   }
+  .namee{
+    font-size: 13.8px;
+  }
 }
 .custom-navbar.scrolled {
   transform: translateY(-100%);
