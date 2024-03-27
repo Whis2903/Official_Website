@@ -24,6 +24,7 @@ import PCKar from "../assets/CoreMembers/drpckar.jpeg";
 import Vishal from "../assets/Developers/vishal.png";
 import Ansh from "../assets/CoreMembers/ansh.png";
 import Gupta from "../assets/Developers/gupta.png";
+import Samplee from "../assets/CoreMembers/Samplee.png";
 
 function Team() {
   return (
@@ -257,6 +258,12 @@ function Team() {
                           role="Corporate Lead"
                           linkedinUrl="https://www.linkedin.com/in/krishna-mahajan8764?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                           githubUrl="https://github.com/KRISHNA140504"
+                        />
+                        <ProfileCard
+                          img={Samplee}
+                          name="Srijita Seth"
+                          role="PR Lead"
+                          linkedinUrl="https://www.linkedin.com/in/"
                         />
                       </>
                     }
