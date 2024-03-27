@@ -62,6 +62,8 @@ function NavbarComponent() {
     };
   }, []);
 
+  const [activeLink, setActiveLink] = useState(""); // State to track active link
+
   return (
     <>
       <Navbar
@@ -83,25 +85,69 @@ function NavbarComponent() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" style={{marginTop:"23px"}} />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link as={NavLink} to="/home" style={{fontWeight:"bolder"}}>
+              <Nav.Link
+                as={NavLink}
+                to="/home"
+                style={{fontWeight:"bolder"}}
+                onClick={() => {
+                  setActiveLink("/home");
+                  window.innerWidth <= 768 &&
+                    document.querySelector(".navbar-toggler").click();
+                }}
+                className={activeLink === "/home" ? "active" : ""}
+              >
                 Home
               </Nav.Link>
-              <Nav.Link as={HashLink} to="/home#upcomingevents" style={{fontWeight:"bolder"}}>
+              <Nav.Link
+                as={HashLink}
+                to="/home#upcomingevents"
+                style={{fontWeight:"bolder"}}
+                onClick={() => {
+                  setActiveLink("/home#upcomingevents");
+                  window.innerWidth <= 768 &&
+                    document.querySelector(".navbar-toggler").click();
+                }}
+                className={activeLink === "/home#upcomingevents" ? "active" : ""}
+              >
                 Events
               </Nav.Link>
-              <Nav.Link as={NavLink} to="/bylaws" style={{fontWeight:"bolder"}}>
+              <Nav.Link
+                as={NavLink}
+                to="/bylaws"
+                style={{fontWeight:"bolder"}}
+                onClick={() => {
+                  setActiveLink("/bylaws");
+                  window.innerWidth <= 768 &&
+                    document.querySelector(".navbar-toggler").click();
+                }}
+                className={activeLink === "/bylaws" ? "active" : ""}
+              >
                 Bylaws
               </Nav.Link>
               <Nav.Link
                 href="https://onboard.stackup.dev/community/srmsigkdd"
-                target="_blank" style={{fontWeight:"bolder"}}
+                target="_blank"
+                style={{fontWeight:"bolder"}}
+                onClick={() => {
+                  setActiveLink("leaderboard");
+                  window.innerWidth <= 768 &&
+                    document.querySelector(".navbar-toggler").click();
+                }}
+                className={activeLink === "leaderboard" ? "active" : ""}
               >
                 Leaderboard
               </Nav.Link>
-              {/* <Nav.Link as={HashLink} to="#blogs" style={{fontWeight:"bolder"}}>
-                Blogs
-              </Nav.Link> */}
-              <Nav.Link as={NavLink} to="/team" style={{fontWeight:"bolder"}}>
+              <Nav.Link
+                as={NavLink}
+                to="/team"
+                style={{fontWeight:"bolder"}}
+                onClick={() => {
+                  setActiveLink("/team");
+                  window.innerWidth <= 768 &&
+                    document.querySelector(".navbar-toggler").click();
+                }}
+                className={activeLink === "/team" ? "active" : ""}
+              >
                 Team
               </Nav.Link>
             </Nav>
@@ -151,7 +197,7 @@ function NavbarComponent() {
                         </Form.Group>
                       </Row>
                       <Row className="mb-3">
-                      <Form.Group as={Col} md="12" controlId="validationCustom03">
+                        <Form.Group as={Col} md="12" controlId="validationCustom03">
                           <Form.Label style={{fontWeight:"bold"}}>Subject</Form.Label>
                           <Form.Control
                             required
@@ -190,3 +236,4 @@ function NavbarComponent() {
 }
 
 export default NavbarComponent;
+
