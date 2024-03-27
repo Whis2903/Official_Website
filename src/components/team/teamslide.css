@@ -21,6 +21,11 @@
 }
 
 @media (max-width: 576px) {
+  .mobile-image {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: contain; /* Ensures the image fills the container */
+    border-radius: 22px!important;
+  }
   .ourr{
     margin-top: -180px;
     font-size: 32px;

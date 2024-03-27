@@ -43,7 +43,7 @@ function TeamCarousel() {
                 </div>
               </Carousel.Item>
               <Carousel.Item>
-                <img src={Sample} className="d-block w-100" alt="Core Team" />
+                <img src={Sample} className="d-block w-100 mobile-image" alt="Coming Soon"/>
                 <Carousel.Caption>
                   <h5 className="eventname">Our First Event</h5>
                 </Carousel.Caption>
