@@ -14,7 +14,6 @@ const PastEvents = () => {
   const callback = function (index) {
     console.log("callback", index);
   };
-
   return (
     <section className="section h-100vh" id="pastevent" style={{marginTop:"100px",marginBottom:"50px"}}>
       <div className="container">
