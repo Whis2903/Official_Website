@@ -3,9 +3,9 @@ import "./LandingSection.css";
 import { NavLink } from "react-router-dom";
 import aditya from "../landingsection/images/aditya.png";
 import orangeLine from "./images/orange-line.png";
-import purpleLine from "./images/purple-line.png";
+import acmblue from "./images/acmblue-line.png";
 import blueLine from "./images/blue-line.png";
-import smPurpleLine from "./images/sm-purple-line.png";
+import smacmblue from "./images/sm-blue-line.png";
 import { useState } from 'react';
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
@@ -31,7 +31,7 @@ const LandingSection = (props) => {
                 <div className="d-flex">
                   <img
                     className="dashed-line-divider"
-                    src={purpleLine}
+                    src={acmblue}
                     alt="purple-dashedline"
                   />
                 </div>
@@ -49,9 +49,9 @@ const LandingSection = (props) => {
                     alt="orange-dashedline"
                   />
                 </div>
-                <div className="profile-info">
-                  <img className="profile-image-orange" src={aditya} alt="coder"/>
-                  <span className="top-0" style={{border: "2px dashed orange"}}>Coder</span>
+                <div className="profile-info" >
+                  <img className="profile-image-blue" src={aditya} alt="coder"/>
+                  <span className="top-0" style={{border: "2px dashed #57abd7"}}>Coder</span>
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ const LandingSection = (props) => {
                 <div className="d-flex">
                   <img
                     className="dashed-line-dividerrr"
-                    src={smPurpleLine}
+                    src={smacmblue}
                     alt="smPurple-dashedline"
                   />
                 </div>

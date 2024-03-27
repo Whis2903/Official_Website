@@ -15,7 +15,7 @@
 
 .join-button {
   color: #ffffff;
-  background-color: #4e36e8 !important;
+  background-color: #57abd7 !important;
   padding: 12px 28px !important;
   letter-spacing: 1px;
   transition: all 0.5s;
@@ -68,7 +68,7 @@
 }
 
 .profile-info .profile-image-orange {
-  border: 2px solid #ff8000;
+  border: 2px solid #57abd7;
   width: 68px;
   height: 68px;
   border-radius: 50%;
@@ -154,7 +154,6 @@
   width: 80%; /* Set width to 80% */
   margin: 0 auto; /* Center horizontally */
 }
-
 .alert-custom .alert-heading {
   color: #ffffff;
   font-weight: bold; /* White text for the heading */
