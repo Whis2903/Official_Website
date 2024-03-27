@@ -105,7 +105,7 @@
 
 @media (max-width: 768px) {
   .landing-section {
-    margin: 20px 0px !important;
+    margin-top: 60px!important;
   }
 
   .title {
@@ -150,5 +150,6 @@
   .srm-logo{
     height: 60px!important;
     margin-top: 25px!important;
+    margin-bottom: -20px!important;
   }
 }

@@ -4,41 +4,41 @@
 }
 
 .glow{
-box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Light purple color with alpha for glow effect */
+box-shadow: 0 0 20px rgba(87, 171, 215, 0.8); /* Light purple color with alpha for glow effect */
 animation: glow 3s infinite alternate; /* Apply animation for breathing effect */
 }
 .custom-text{
   font-family: "Syne";
-  color: #b833f6;
+  color: #57abd7;
   font-weight: 520;
 }
 .custom-button {
   font-family: "Syne";
     font-weight: 550;
-    background-color: #b833f6;
-    border-color: #b833f6; /* Change to your desired background color */
+    background-color: #57abd7;
+    border-color: #57abd7; /* Change to your desired background color */
     color: white; /* Change to your desired text color */
   }
   .custom-button:hover {
-    background-color: #b833f6;
-    border-color: #b833f6;
-    box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Light purple color with alpha for glow effect */
+    background-color: #57abd7;
+    border-color: #57abd7;
+    box-shadow: 0 0 20px rgba(87, 171, 215, 0.8); /* Light purple color with alpha for glow effect */
   }
   .custom-button:active{
-    background-color: #b833f6;
-    border-color: #b833f6;
-    box-shadow: 0 0 20px rgba(153, 102, 255, 0.8);
+    background-color: #57abd7;
+    border-color: #57abd7;
+    box-shadow: 0 0 20px rgba(87, 171, 215, 0.8);
   }
 
   @keyframes glow {
     0% {
-      box-shadow: 0 0 5px rgba(153, 102, 255, 0.8); /* Initial glow */
+      box-shadow: 0 0 5px rgba(87, 171, 215, 0.8); /* Initial glow */
     }
     50% {
-      box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Medium glow */
+      box-shadow: 0 0 20px rgba(87, 171, 215, 0.8); /* Medium glow */
     }
     100% {
-      box-shadow: 0 0 40px rgba(153, 102, 255, 0.8); /* Increased glow */
+      box-shadow: 0 0 40px rgba(87, 171, 215, 0.8); /* Increased glow */
     }
   }
   

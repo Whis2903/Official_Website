@@ -43,7 +43,7 @@ const UpcomingEvent = () => {
           </Card.Text>
           <Button variant="primary"
         className={`custom-button ${buttonClicked ? 'clicked' : ''}`}
-        onClick={handleClick}         style={{ backgroundColor: buttonClicked ? '#8000ff' : '#8000ff', borderColor: buttonClicked ? '#8000ff' : '#8000ff' }}
+        onClick={handleClick}         style={{ backgroundColor: buttonClicked ? '#57abd7' : '#57abd7', borderColor: buttonClicked ? '#57abd7' : '#57abd7' }}
         >Go somewhere</Button>
         </Card.Body>
       </Card>

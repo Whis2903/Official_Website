@@ -1,11 +1,14 @@
 import React from 'react'
 import '../css/Home.css'
+// eslint-disable-next-line
 import BlogSection from '../components/home/blogsection/BlogSection'
 import LandingSection from '../components/home/landingsection/LandingSection'
+// eslint-disable-next-line
 import PastEvents from '../components/home/pastevents/PastEvents'
 import UpcomingEvent from '../components/home/upcomingsection/UpcomingEvent'
 import SponsorSection from '../components/home/sponsorsection/SponsorSection'
 import FaqSection from "../components/home/faqsection/FaqSection"
+// eslint-disable-next-line
 import { InstagramEmbed } from 'react-social-media-embed'
 import TeamCarousel from "../components/team/TeamCarousel";
 
@@ -20,8 +23,9 @@ function Home() {
     <UpcomingEvent />
     <TeamCarousel />
     <FaqSection/>
+    <PastEvents />
     <SponsorSection />
-    {/* <PastEvents /> */}
+   
     {/* <BlogSection /> */}
     
     {/* <div style={{ display: 'flex', justifyContent: 'center',marginBottom:"50px"}}>

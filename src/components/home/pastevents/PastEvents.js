@@ -1,14 +1,14 @@
 import React from "react";
 import "./PastEvents.css";
 import { Carousel } from "3d-react-carousal";
-import flutter from "../../../assets/Events/flutter_event.png";
-import AutoFinal from "../../../assets/Events/Auto run final round.png";
+import flutter from "../../../assets/Events/sample.png";
+import AutoFinal from "../../../assets/Events/sample.png";
 // npm install 3d-react-carousal --force
 
 const PastEvents = () => {
   let slides = [
-    <img src={AutoFinal} style={{ height:"350px", width: "350px" }} alt="2" />,
-    <img src={flutter} style={{ height:"350px", width: "350px" }} alt="1" />,
+    <img src={AutoFinal} className="imgg" alt="2" />,
+    <img src={flutter} className="imgg" alt="1" />,
   ];
 
   const callback = function (index) {
@@ -16,7 +16,7 @@ const PastEvents = () => {
   };
 
   return (
-    <section className="section h-100vh" id="pastevent">
+    <section className="section h-100vh" id="pastevent" style={{marginTop:"100px"}}>
       <div className="container">
         <div className="gbc2"></div>
         <div className="row">

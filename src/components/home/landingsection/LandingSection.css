@@ -25,8 +25,8 @@
 
 .join-button:hover {
   background-color: transparent !important;
-  border: 2px solid #4e36e8 !important;
-  color: #4e36e8 !important;
+  border: 2px solid #57abd7 !important;
+  color: #57abd7 !important;
 }
 
 .col-3 .dashed-line-divider {
@@ -58,7 +58,7 @@
 }
 
 .profile-info .profile-image-blue {
-  border: 2px solid #8000ff;
+  border: 2px solid #57abd7;
   width: 68px;
   height: 68px;
   border-radius: 50%;
@@ -81,7 +81,7 @@
   padding: 0px 10px;
   color: #ffffff;
   font-family: "Syne";
-  border-radius: 2px dashed #8000ff;
+  border-radius: 2px dashed #57abd7;
   font-size: 18px;
   line-height: 21px;
   vertical-align: Top;
@@ -91,12 +91,12 @@
 .profile-info .bottom-0 {
   position: absolute;
   left: 50px;
-  border: 2px dashed #8000ff;
+  border: 2px dashed #57abd7;
 }
 
 .profile-info .top-0 {
   position: absolute;
-  border: 2px dashed #8000ff;
+  border: 2px dashed #57abd7;
 }
 
 .profile-info img {
@@ -161,11 +161,11 @@
 }
 .alert-custom .btn-outline-success {
   color: #ffffff; /* White text */
-  background-color: #b833f6; /* Change button background color */
-  border-color: #b833f6; /* Change button border color */
+  background-color: #57abd7; /* Change button background color */
+  border-color: #57abd7; /* Change button border color */
 }
 
 .alert-custom .btn-outline-success:hover {
-  background-color: #cc62fc; /* Change button background color on hover */
-  border-color: #cc62fc; /* Change button border color on hover */
+  background-color: #57abd7; /* Change button background color on hover */
+  border-color: #57abd7; /* Change button border color on hover */
 }

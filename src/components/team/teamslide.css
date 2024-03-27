@@ -14,13 +14,18 @@
   margin-top: 25px;
 }
 .carousel-glow {
-  box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Light purple color with alpha for glow effect */
+  box-shadow: 0 0 20px rgba(87, 171, 215, 0.8); /* Light purple color with alpha for glow effect */
   animation: glow 2s infinite alternate; /* Apply animation for breathing effect */
   border-radius: 25px;
   padding: 10px 20px;
 }
 
 @media (max-width: 576px) {
+  .mobile-image {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: contain; /* Ensures the image fills the container */
+    border-radius: 22px!important;
+  }
   .ourr{
     margin-top: -180px;
     font-size: 32px;

@@ -7,10 +7,10 @@
 
 @keyframes glow {
   from {
-    box-shadow: 0 0 10px rgba(153, 102, 255, 0.8); /* Initial glow */
+    box-shadow: 0 0 10px rgba(87, 171, 215, 0.8); /* Initial glow */
   }
   to {
-    box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Increased glow */
+    box-shadow: 0 0 20px rgba(87, 171, 215, 0.8); /* Increased glow */
   }
 }
 
@@ -26,7 +26,7 @@
   width: 60%;
   border-radius: 10px;
   /* Add box-shadow for the glowing effect */
-  box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Light purple color with alpha for glow effect */
+  box-shadow: 0 0 20px rgba(87, 171, 215, 0.8); /* Light purple color with alpha for glow effect */
   animation: glow 3s infinite alternate; /* Apply animation for breathing effect */
 }
 

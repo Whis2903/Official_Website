@@ -7,7 +7,7 @@
   border-radius: 50%;
   background: radial-gradient(
     circle at center,
-    #b833f6 10%,
+    #57abd7 10%,
     rgba(255, 255, 255, 0.5) 200%
   );
   filter: blur(195px);
@@ -23,7 +23,7 @@
   border-radius: 50%;
   background: radial-gradient(
     circle at center,
-    #4e36e8 10%,
+    #57abd7 10%,
     rgba(255, 255, 255, 0.5) 100%
   );
   mix-blend-mode: screen;
@@ -39,7 +39,7 @@
   border-radius: 50%;
   background: radial-gradient(
     circle at center,
-    #b833f6 10%,
+    #57abd7 10%,
     rgba(255, 255, 255, 0.5) 200%
   );
   filter: blur(195px);
