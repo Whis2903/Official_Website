@@ -13,6 +13,11 @@
   line-height: 30px;
 }
 
+.join-button-container {
+  display: flex;
+  justify-content: center;
+}
+
 .join-button {
   color: #ffffff;
   background-color: #57abd7 !important;
@@ -22,6 +27,7 @@
   font-size: 15px;
   border-radius: 22px !important;
 }
+
 
 .join-button:hover {
   background-color: transparent !important;

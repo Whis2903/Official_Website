@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import CreatorCard from "./CreatorCard";
 import "./Footer.css";
 import Verma from "../../assets/CoreMembers/Aditya.jpg";
+import Vishal from "../../assets/Developers/vishal.png"
 
 
 function Footer() {
@@ -76,12 +77,26 @@ function Footer() {
                 </div>
                 <div className="col-lg-3">
                   <h3 className="footer-section-title" style={{color:"white",fontWeight:"bold"}}>Made By</h3>
-                  <Carousel className="footer-carousel" fade indicators={false} controls={false}>
+                  <Carousel className="footer-carousel" fade indicators={false} controls={false} interval={2000}>
                   <Carousel.Item>
                           <CreatorCard
                             img={Verma}
                             title="Aditya Verma"
                             role="Chairperson"
+                          />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                          <CreatorCard
+                            img={Verma}
+                            title="Aditya Verma"
+                            role="Chairperson"
+                          />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                          <CreatorCard
+                            img={Vishal}
+                            title="Vishal Mohan Nair"
+                            role="R&D Head"
                           />
                   </Carousel.Item>
                   </Carousel>
