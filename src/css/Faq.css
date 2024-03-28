@@ -1,0 +1,66 @@
+.lan{
+    margin-top: 100px;
+    margin-bottom: -70px;
+  }
+  .accordion-collapse {
+    transition: height 0.3s ease;
+  }
+  
+  /* Adjust other styles as needed */
+  .accordion {
+    width: 80%;
+    margin: 0 auto; /* Align center */
+    margin-top: 20px !important;
+    box-shadow: 0 0 20px rgba(87, 171, 215, 0.8);
+  }
+  
+  .accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #57abd7;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    border-color: #57abd7;
+    font-family: "Syne";
+    font-weight: bold;
+  }
+  
+  .accordion-button,
+  .accordion-button:hover {
+    font-family: "Syne";
+    color: #ffffff;
+    background-color: #57abd7;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    font-weight: bold;
+  }
+  
+  .accordion-body {
+    font-family: "Syne";
+    color: #ffffff;
+    background-color: black;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    border-color: transparent;
+    font-weight: 500;
+  }
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 5px rgba(87, 171, 215, 0.8); /* Initial glow */
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(87, 171, 215, 0.8); /* Medium glow */
+    }
+    100% {
+      box-shadow: 0 0 40px rgba(87, 171, 215, 0.8); /* Increased glow */
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .classy{
+      margin-bottom: -200px;
+    }
+    .title{
+      font-size: 32px;
+    }
+    .accordion {
+      width: 100%;
+      margin: 0 auto; /* Align center */
+    }
+  }
+  

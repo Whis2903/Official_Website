@@ -99,6 +99,19 @@ function NavbarComponent() {
                 Home
               </Nav.Link>
               <Nav.Link
+                as={NavLink}
+                to="/about"
+                style={{fontWeight:"bolder"}}
+                onClick={() => {
+                  setActiveLink("/about");
+                  window.innerWidth <= 768 &&
+                    document.querySelector(".navbar-toggler").click();
+                }}
+                className={activeLink === "/about" ? "active" : ""}
+              >
+                About Us
+              </Nav.Link>
+              <Nav.Link
                 as={HashLink}
                 to="/home#upcomingevents"
                 style={{fontWeight:"bolder"}}
@@ -125,32 +138,6 @@ function NavbarComponent() {
                 Bylaws
               </Nav.Link>
               <Nav.Link
-                href="https://onboard.stackup.dev/community/srmsigkdd"
-                target="_blank"
-                style={{fontWeight:"bolder"}}
-                onClick={() => {
-                  setActiveLink("leaderboard");
-                  window.innerWidth <= 768 &&
-                    document.querySelector(".navbar-toggler").click();
-                }}
-                className={activeLink === "leaderboard" ? "active" : ""}
-              >
-                Leaderboard
-              </Nav.Link>
-              <Nav.Link
-                as={NavLink}
-                to="/about"
-                style={{fontWeight:"bolder"}}
-                onClick={() => {
-                  setActiveLink("/about");
-                  window.innerWidth <= 768 &&
-                    document.querySelector(".navbar-toggler").click();
-                }}
-                className={activeLink === "/about" ? "active" : ""}
-              >
-                About Us
-              </Nav.Link>
-              <Nav.Link
                 as={NavLink}
                 to="/team"
                 style={{fontWeight:"bolder"}}
@@ -162,6 +149,19 @@ function NavbarComponent() {
                 className={activeLink === "/team" ? "active" : ""}
               >
                 Team
+              </Nav.Link>
+              <Nav.Link
+                as={NavLink}
+                to="/faq"
+                style={{fontWeight:"bolder"}}
+                onClick={() => {
+                  setActiveLink("/faq");
+                  window.innerWidth <= 768 &&
+                    document.querySelector(".navbar-toggler").click();
+                }}
+                className={activeLink === "/faq" ? "active" : ""}
+              >
+                FAQs
               </Nav.Link>
             </Nav>
             <Nav className="ms-auto">

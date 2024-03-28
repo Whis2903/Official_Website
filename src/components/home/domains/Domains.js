@@ -19,6 +19,7 @@ function Domains() {
           <p>
             Research and Development domain involves exploring new ideas, technologies, and methodologies to drive innovation.
           </p>
+          <p>Instagram Followers : </p>
         </div>
         <div className="domain-card">
           <div className="logo">Logo</div> {/* Placeholder for logo */}
