@@ -4,10 +4,12 @@
   background-color: var(--secondary-color);
   border-radius: 50%;
 }
+
 .imgg{
   height: 100%;
   width: 100%;
   border-radius: 22px;
+  box-shadow: 0 0 20px rgba(87, 171, 215, 0.8);
 }
 
 @media (max-width: 768px) {
