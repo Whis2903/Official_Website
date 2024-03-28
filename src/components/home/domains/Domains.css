@@ -78,7 +78,7 @@
   @media screen and (max-width: 576px) {
     .domains-container{
     margin-top: -120px;
-    width: calc(90%); 
+    width: calc(85%); 
     padding: 20px 4px; 
     }
   }

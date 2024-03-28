@@ -24,7 +24,7 @@ function Domains() {
           <div className="logo">Logo</div> {/* Placeholder for logo */}
           <h3>Web/App Dev</h3>
           <p>
-            Web/App Development domain focuses on creating interactive and responsive applications for the web and mobile platforms.
+          Developing and maintaining websites with intuitive user interface and seamless user experience along with precise server-side web application logic.
           </p>
         </div>
         <div className="domain-card">
