@@ -11,6 +11,7 @@ import FaqSection from "../components/home/faqsection/FaqSection"
 // eslint-disable-next-line
 import { InstagramEmbed } from 'react-social-media-embed'
 import TeamCarousel from "../components/team/TeamCarousel";
+import Domains from '../components/home/domains/Domains'
 
 function Home() { 
   return (
@@ -21,6 +22,7 @@ function Home() {
         link="/team"
       />
     <UpcomingEvent />
+    <Domains/>
     <TeamCarousel />
     <FaqSection/>
     <PastEvents />

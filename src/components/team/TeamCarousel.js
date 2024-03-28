@@ -22,7 +22,7 @@ function TeamCarousel() {
       <div className="container conty">
         <div className="row justify-content-center text-center">
           <div className="col-sm-5 col-lg-9 w-100vw text-center">
-          <h1 className="title ourr" style={{marginBottom:"20px"}}>
+          <h1 className="title ourr" style={{marginBottom:"35px",marginTop:"-200px"}}>
                 Our
                 {" "}
                 <span style={{ color: "var(--secondary-color)" }}>
