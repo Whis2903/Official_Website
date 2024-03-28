@@ -15,7 +15,7 @@
 
 .join-button {
   color: #ffffff;
-  background-color: #4e36e8 !important;
+  background-color: #57abd7 !important;
   padding: 12px 28px !important;
   letter-spacing: 1px;
   transition: all 0.5s;
@@ -25,8 +25,8 @@
 
 .join-button:hover {
   background-color: transparent !important;
-  border: 2px solid #4e36e8 !important;
-  color: #4e36e8 !important;
+  border: 2px solid #57abd7 !important;
+  color: #57abd7 !important;
 }
 
 .col-3 .dashed-line-divider {
@@ -68,7 +68,7 @@
 }
 
 .profile-info .profile-image-orange {
-  border: 2px solid #ff8000;
+  border: 2px solid #57abd7;
   width: 68px;
   height: 68px;
   border-radius: 50%;
@@ -81,7 +81,7 @@
   padding: 0px 10px;
   color: #ffffff;
   font-family: "Syne";
-  border-radius: 2px dashed #8000ff;
+  border-radius: 2px dashed #57abd7;
   font-size: 18px;
   line-height: 21px;
   vertical-align: Top;

@@ -77,11 +77,13 @@
   color: var(--secondary-color);
   text-decoration: none;
 }
-
+.footer-section-title {
+  color: white!important;
+}
 @media (max-width: 768px) {
   .footer-section-title {
     margin: 40px 0px 10px 0px;
-    color: white;
+    color: white!important;
   }
   .contact-list i {
     font-size: 20px;

@@ -2,10 +2,9 @@ import React from "react";
 import { useState } from "react";
 import "./UpcomingEvent.css";
 import coming from "../../../assets/Events/coming.png";
-import TimeStamp from "./TimeStamp";
 import { Card,Button } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendar, faLocation, faLocationArrow, faMoneyBill, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
+import { faCalendar, faLocationArrow, faMoneyBill, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
 
 
 const UpcomingEvent = () => {

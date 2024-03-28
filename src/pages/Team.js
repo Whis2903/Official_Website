@@ -61,7 +61,10 @@ function Team() {
                       <h1>
                         Meet Our{" "}
                         <span style={{ color: "var(--secondary-color)" }}>
-                          TEAM of developers, designers and creators
+                          TEAM of developers, designers and creators<span style={{ color: "#57abd7", textShadow: "0 0 10px #57abd7, 0 0 20px #57abd7, 0 0 30px #57abd7" }}>
+  <br/>[ FOUNDERS ]
+</span>
+
                         </span>
                       </h1>
                     </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/Home.css'
+import '../css/About.css'
 
 function About() { 
 
@@ -19,7 +19,9 @@ function About() {
             </div>
           </div>
           <div className="container">
-            </div>
+  <div className="content">
+  </div>
+</div>
         </div>
       </section>
     </>
