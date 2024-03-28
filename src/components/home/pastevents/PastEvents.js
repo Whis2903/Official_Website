@@ -33,7 +33,7 @@ const PastEvents = () => {
             {" "}
             <Carousel
               slides={slides}
-              interval={2000}
+              interval={3000}
               autoplay={true}
               onSlideChange={callback}
             />
