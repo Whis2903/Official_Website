@@ -7,7 +7,6 @@ import LandingSection from '../components/home/landingsection/LandingSection'
 import PastEvents from '../components/home/pastevents/PastEvents'
 import UpcomingEvent from '../components/home/upcomingsection/UpcomingEvent'
 import SponsorSection from '../components/home/sponsorsection/SponsorSection'
-import FaqSection from "../components/home/faqsection/FaqSection"
 // eslint-disable-next-line
 import { InstagramEmbed } from 'react-social-media-embed'
 import TeamCarousel from "../components/team/TeamCarousel";
@@ -24,7 +23,6 @@ function Home() {
     <UpcomingEvent />
     <Domains/>
     <TeamCarousel />
-    <FaqSection/>
     <PastEvents />
     <div className='container'></div>
     <SponsorSection />
