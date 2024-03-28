@@ -85,7 +85,7 @@ B[Open Folder] --> C[npm install --legacy-peer-deps] -->D[npm start]
  ## Current Contributors 🔻
 <div align="center">
   <a href="https://github.com/ADITYAVOFFICIAL/Fortuna/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ADITYAVOFFICIAL/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER" />
+  <img src="https://contrib.rocks/image?repo=ADITYAVOFFICIAL/Official_Website" />
 </a>
 </div>
 
