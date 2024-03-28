@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import Team from './pages/Team';
 import JoinCommunity from './pages/JoinCommunity';
 import Bylaws from './pages/Bylaws';
+import About from './pages/About'
 
 import {Routes, Route,} from 'react-router-dom';
 import ScrollToTop from './components/scrollToTop/ScrollToTop';
@@ -23,6 +24,7 @@ function App() {
       <Route path="team" element={<Team/>} />
       <Route path="joincommunity" element={<JoinCommunity/>} />
       <Route path="bylaws" element={<Bylaws/>} />
+      <Route path="about" element={<About/>} />
     </Routes>
     <Footer/>
     </>
