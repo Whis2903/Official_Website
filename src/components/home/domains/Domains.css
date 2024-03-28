@@ -75,6 +75,11 @@
     transform: scale(1.05); 
     color: #f3f3f3; /* Change text color to white on hover */
   }
+  .image{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
   @media screen and (max-width: 576px) {
     .domains-container{
     margin-top: -120px;
