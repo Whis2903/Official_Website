@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css'; // Import the CSS file for styling
+import './About.css'; 
 
 function AboutUs() {
   return (
@@ -16,7 +16,7 @@ function AboutUs() {
         and Natural Language Processing. Our mission is to foster learning and innovation
         while staying at the forefront of cutting-edge technologies.
       </p>
-      {/* You can add more content or customize this section as needed */}
+      {/* Add the details you want in the about us page */}
     </div>
   );
 }
