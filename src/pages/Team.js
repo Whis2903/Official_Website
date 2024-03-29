@@ -25,6 +25,7 @@ import Vishal from "../assets/Developers/vishal.png";
 import Ansh from "../assets/CoreMembers/ansh.png";
 import Gupta from "../assets/Developers/gupta.png";
 import Samplee from "../assets/CoreMembers/Samplee.png";
+import Srijita from "../assets/CoreMembers/srijita.jpeg"
 
 function Team() {
   return (
@@ -263,7 +264,7 @@ function Team() {
                           githubUrl="https://github.com/KRISHNA140504"
                         />
                         <ProfileCard
-                          img={Samplee}
+                          img={Srijita}
                           name="Srijita Seth"
                           role="PR Lead"
                           linkedinUrl="https://www.linkedin.com/in/"
