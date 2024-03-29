@@ -53,6 +53,9 @@ animation: glow 3s infinite alternate; /* Apply animation for breathing effect *
   .section{
     margin-top: 10px;
   }
+  .section-title{
+    font-size: 33px!important;
+  }
     .mobcard {
         margin-bottom: 35px;
         width: calc(80%); 

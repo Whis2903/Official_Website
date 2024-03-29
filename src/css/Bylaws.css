@@ -1,0 +1,8 @@
+@media screen and (max-width: 576px) {
+  .section-title{
+      margin-top: -20px!important;
+  }
+  .art{
+    margin-top: 10px!important;
+  }
+}

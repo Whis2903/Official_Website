@@ -47,6 +47,7 @@
     height: 295px; /* Adjust the height as needed */
   }
   .conty{
-    margin-top: 80px;
+    margin-top: -180px;
+    margin-bottom: 10px;
   }
 }
