@@ -47,10 +47,15 @@ const UpcomingEvent = () => {
           <Card.Text className="custom-text">
           The technical event scheduled for this April will be updated soon.
           </Card.Text>
+          <div className="button-container">
           <Button variant="primary"
         className={`custom-button ${buttonClicked ? 'clicked' : ''}`}
-        onClick={handleClick}         style={{ backgroundColor: buttonClicked ? '#57abd7' : '#57abd7', borderColor: buttonClicked ? '#57abd7' : '#57abd7' }}
-        >Register Now !</Button>
+        onClick={handleClick} style={{ backgroundColor: buttonClicked ? '#57abd7' : '#57abd7', borderColor: buttonClicked ? '#57abd7' : '#57abd7' }}
+        >Register</Button>
+        <Button variant="primary"
+        className={`custom-button ${buttonClicked ? 'clicked' : ''}`}
+        onClick={handleClick}  href="/event" style={{ backgroundColor: buttonClicked ? '#57abd7' : '#57abd7', borderColor: buttonClicked ? '#57abd7' : '#57abd7' }}
+        >Details</Button></div>
         </Card.Body>
       </Card>
     </div>

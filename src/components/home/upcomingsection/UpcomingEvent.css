@@ -12,13 +12,20 @@ animation: glow 3s infinite alternate; /* Apply animation for breathing effect *
   color: #57abd7;
   font-weight: 520;
 }
+.button-container {
+  text-align: center; /* Center-align the buttons horizontally */
+}
 .custom-button {
   font-family: "Syne";
-    font-weight: 550;
-    background-color: #57abd7;
-    border-color: #57abd7; /* Change to your desired background color */
-    color: white; /* Change to your desired text color */
-  }
+  font-weight: 550;
+  background-color: #57abd7;
+  border-color: #57abd7; /* Change to your desired background color */
+  color: white; /* Change to your desired text color */
+  margin-right: 10px;
+  display: inline-block; /* Display buttons horizontally */
+  margin-bottom: 10px;
+}
+
   .custom-button:hover {
     background-color: #57abd7;
     border-color: #57abd7;
