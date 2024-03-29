@@ -31,6 +31,12 @@ function TeamCarousel() {
               </h1>
             <Carousel fade slide className="carousel-glow" interval={null}>
               <Carousel.Item>
+                <img src={Sample} className="d-block w-100 mobile-image" alt="Coming Soon"/>
+                <Carousel.Caption>
+                  <h5 className="eventname">Orientation '24</h5>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
                 <div style={{ width: "100%", height: "110%", borderRadius: "22px", overflow: "hidden" }}>
                   <YouTube
                     videoId="XN9pRYh3zTA"
@@ -41,12 +47,6 @@ function TeamCarousel() {
                     }}
                   />
                 </div>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img src={Sample} className="d-block w-100 mobile-image" alt="Coming Soon"/>
-                <Carousel.Caption>
-                  <h5 className="eventname">Our First Event</h5>
-                </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
           </div>

@@ -232,6 +232,7 @@ function Team() {
                           name="Nayana Dinesh"
                           role="Creatives Lead"
                           linkedinUrl="https://www.linkedin.com/in/nayana-dinesh-101905289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                          githubUrl="https://github.com/nayanadinesh"
                         />
                       </>
                     }
@@ -253,7 +254,7 @@ function Team() {
                           img={Ansh}
                           name="Ansh Semwal"
                           role="Corporate Head"
-                          // linkedinUrl="https://www.linkedin.com/in/"
+                          linkedinUrl="https://www.linkedin.com/in/ansh-semwal-52518a301/"
                           githubUrl="https://github.com/anshsemwal"
                         />
                          <ProfileCard
@@ -267,7 +268,7 @@ function Team() {
                           img={Srijita}
                           name="Srijita Seth"
                           role="PR Lead"
-                          linkedinUrl="https://www.linkedin.com/in/"
+                          linkedinUrl="https://www.linkedin.com/in/srijita-seth-365b9a262/"
                           githubUrl="https://github.com/Srijitaseth"
                         />
                       </>
