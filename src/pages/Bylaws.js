@@ -11,7 +11,7 @@ function Bylaws() {
             <div className="col-md-12 text-center">
               <h1 className="section-title">
                 SIGKDD SRM KTR Student Chapter
-                <span style={{ color: "var(--secondary-color)" }}>
+                <span style={{ color: "var(--secondary-color)",textShadow: "0 0 10px #57abd7, 0 0 20px #57abd7" }}>
                   {" "}
                   Bylaws
                 </span>
@@ -21,14 +21,14 @@ function Bylaws() {
           <div className="container" style={{ marginTop: "40px" }}>
             <div className="row">
               <div className="col-md-12">
-                <h1 className="section-title text-left" style={{fontSize:"25px",color: "var(--secondary-color)"}}>Article I: Name and Scope</h1>
+                <h1 className="section-title text-left" style={{fontSize:"25px",color: "#57abd7", textShadow: "0 0 10px #57abd7, 0 0 20px #57abd7"}}>Article I: Name and Scope</h1>
                 <div className="d-flex" style={{ flex: "50%" ,fontWeight:"500"}}>
                   <div>
                     <p>1. This organisation shall be called the ACM SIGKDD SRM KTR Student Chapter. In these bylaws it is referred to as the Chapter; the Association for Computing Machinery is referred to as ACM.</p>
                     <p style={{marginTop:"-5px"}}>2. The scope of the Chapter is SIGKDD Special Interest Group on Knowledge Discovery in Data.</p>
                   </div>
                 </div>
-                <h1 className="section-title text-left" style={{fontSize:"25px",color: "var(--secondary-color)"}}>Article II: Purpose</h1>
+                <h1 className="section-title text-left" style={{fontSize:"25px",color: "#57abd7", textShadow: "0 0 10px #57abd7, 0 0 20px #57abd7"}}>Article II: Purpose</h1>
                 <div className="d-flex" style={{ flex: "50%" ,fontWeight:"500"}}>
                   <div>
                   <p>
@@ -45,7 +45,7 @@ function Bylaws() {
                     <p style={{marginTop:"3px"}}>3. This Chapter is chartered by ACM. It is formed and will operate under the sponsorship of ACM and the SIG Governing Board.</p>
                   </div>
                 </div>
-                <h1 className="section-title text-left" style={{fontSize:"25px",color: "var(--secondary-color)"}}>Article III: Membership</h1>
+                <h1 className="section-title text-left" style={{fontSize:"25px",color: "#57abd7", textShadow: "0 0 10px #57abd7, 0 0 20px #57abd7"}}>Article III: Membership</h1>
                 <div className="d-flex" style={{ flex: "50%" ,fontWeight:"500"}}>
                   <div>
                     <p>1. Membership in the Student Chapter shall be open to all SRM IST KTR students who are ACM members, SIGKDD members, and non-members.</p>
@@ -53,7 +53,7 @@ function Bylaws() {
                     <p style={{marginTop:"-5px"}}>3. Membership shall not be restricted according to race, creed, age, gender, disability, nationality, sexual orientation, economic status, veteran status, or parenthood.</p>
                   </div>
                 </div>
-                <h1 className="section-title text-left" style={{fontSize:"25px",color: "var(--secondary-color)"}}>Article IV: Officers</h1>
+                <h1 className="section-title text-left" style={{fontSize:"25px",color: "#57abd7", textShadow: "0 0 10px #57abd7, 0 0 20px #57abd7"}}>Article IV: Officers</h1>
                 <div className="d-flex" style={{ flex: "50%" ,fontWeight:"500"}}>
                   <div>
                     <p>1. The officers of this Chapter shall be: Chair, Vice Chair, and Treasurer. These individuals must be ACM Student Members and ACM SIGKDD Members. In addition, a Faculty Sponsor with an ACM Professional Membership and ACM SIGKDD Membership is required. Other officers may also be established.</p>
@@ -61,7 +61,7 @@ function Bylaws() {
                     <p style={{marginTop:"-5px"}}>3. Appointment or nomination of an individual to an officer position within an ACM Chapter shall be in general limited to two full consecutive terms in the same position. This recommendation is intended to en- courage the continuing infusion of new volunteers into the organisation and to encourage office holders to give thought to planning for their successor.</p>
                   </div>
                 </div>
-                <h1 className="section-title text-left" style={{fontSize:"25px",color: "var(--secondary-color)"}}>Article V: Duties of Officers</h1>
+                <h1 className="section-title text-left" style={{fontSize:"25px",color: "#57abd7", textShadow: "0 0 10px #57abd7, 0 0 20px #57abd7"}}>Article V: Duties of Officers</h1>
                 <div className="d-flex" style={{ flex: "50%" ,fontWeight:"500"}}>
                   <div>
                     <p>1. The Chair is the principal officer and is responsible for leading the Chapter and managing its activities in accordance with the policies and procedures of ACM and these bylaws.</p>
@@ -90,7 +90,7 @@ function Bylaws() {
 </p>
                   </div>
                 </div>
-                <h1 className="section-title text-left" style={{fontSize:"25px",color: "var(--secondary-color)"}}>Article VI: Meetings</h1>
+                <h1 className="section-title text-left" style={{fontSize:"25px",color: "#57abd7", textShadow: "0 0 10px #57abd7, 0 0 20px #57abd7"}}>Article VI: Meetings</h1>
                 <div className="d-flex" style={{ flex: "50%" ,fontWeight:"500"}}>
                   <div>
                     <p>1. 
@@ -99,14 +99,14 @@ The Chapter shall hold meetings only in places that are open and accessible to a
                     <p style={{marginTop:"-5px"}}>3. Notices of all meetings shall be distributed to all members at least one week prior to any meeting.</p>
                   </div>
                 </div>
-                <h1 className="section-title text-left" style={{fontSize:"25px",color: "var(--secondary-color)"}}>Article VII: Disbursements and Dues</h1>
+                <h1 className="section-title text-left" style={{fontSize:"25px",color: "#57abd7", textShadow: "0 0 10px #57abd7, 0 0 20px #57abd7"}}>Article VII: Disbursements and Dues</h1>
                 <div className="d-flex" style={{ flex: "50%" ,fontWeight:"500"}}>
                   <div>
                     <p>1. Disbursements from the Treasury for Chapter expenditures shall be made by any active Chapter officer and shall be included in the minutes of its meetings.</p>
                     <p style={{marginTop:"-5px"}}>2. Dues shall be fixed annually.</p>
                   </div>
                 </div>
-                <h1 className="section-title text-left" style={{fontSize:"25px",color: "var(--secondary-color)"}}>Article VIII: Amendment and Election Procedures</h1>
+                <h1 className="section-title text-left" style={{fontSize:"25px",color: "#57abd7", textShadow: "0 0 10px #57abd7, 0 0 20px #57abd7"}}>Article VIII: Amendment and Election Procedures</h1>
                 <div className="d-flex" style={{ flex: "50%" ,fontWeight:"500"}}>
                   <div>
                     <p>1. All proposed changes to these Chapter Bylaws shall be approved by ACM Headquarters - Chapters Department before being presented to the Chapter membership for a vote.</p>
@@ -114,7 +114,7 @@ The Chapter shall hold meetings only in places that are open and accessible to a
                     <p style={{marginTop:"-5px"}}>3. Officers will be elected by a plurality of votes cast.</p>
                   </div>
                 </div>
-                <h1 className="section-title text-left" style={{fontSize:"25px",color: "var(--secondary-color)"}}>Article IX: Code of Conduct</h1>
+                <h1 className="section-title text-left" style={{fontSize:"25px",color: "#57abd7", textShadow: "0 0 10px #57abd7, 0 0 20px #57abd7"}}>Article IX: Code of Conduct</h1>
                 <div className="d-flex" style={{ flex: "50%" ,fontWeight:"500"}}>
                   <div>
                     <p>1. Harassment or hostile behavior is unwelcome, including speech that intimidates, creates discomfort, or interferes with a person’s participation or opportunity for participation, in a Chapter meeting or Chapter event. Harassment in any form, including but not limited to harassment based on alienage or citizenship, age, color, creed, disability, marital status, mil- itary status, national origin, pregnancy, childbirth and pregnancy-relat- ed medical conditions, race, religion, sex, gender, veteran status, sexual orientation or any other status protected by laws in which the Chapter meeting or Chapter event is being held, will not be tolerated. Harass- ment includes the use of abusive or degrading language, intimidation, stalking, harassing photography or recording, inappropriate physical contact, sexual imagery and unwelcome sexual attention. A response that the participant was “just joking,” or “teasing,” or being “playful,” will not be accepted.</p>
@@ -122,7 +122,7 @@ The Chapter shall hold meetings only in places that are open and accessible to a
                     <p style={{marginTop:"-5px"}}>3. Individuals violating these standards may be sanctioned or excluded from further participation at the discretion of the Chapter officers or responsible committee members.</p>
                   </div>
                 </div>
-                <h1 className="section-title text-left" style={{fontSize:"25px",color: "var(--secondary-color)"}}>Article X: Dissolution of the Chapter</h1>
+                <h1 className="section-title text-left" style={{fontSize:"25px",color: "#57abd7", textShadow: "0 0 10px #57abd7, 0 0 20px #57abd7"}}>Article X: Dissolution of the Chapter</h1>
                 <div className="d-flex" style={{ flex: "50%" ,fontWeight:"500"}}>
                   <div>
                     <p>1. Dissolution of this Chapter by consent of the members shall consist of unanimous agreement of all its officers together with a majority vote at a meeting which has been publicized in advance to all members of the Chapter for the purpose of taking this vote..</p>

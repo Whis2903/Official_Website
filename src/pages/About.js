@@ -12,7 +12,7 @@ function About() {
             <div className="col-lg-10 text-center">
               <h1 className="title">
                 About{" "}
-                <span style={{ color: "var(--secondary-color)" }}>
+                <span style={{ color: "var(--secondary-color)",textShadow: "0 0 10px #57abd7, 0 0 20px #57abd7" }}>
                  Us
                 </span>{" "}
               </h1>
