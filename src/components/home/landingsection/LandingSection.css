@@ -111,7 +111,7 @@
 
 @media (max-width: 768px) {
   .landing-section {
-    margin: 20px 0px !important;
+    margin: 100px 0px !important;
   }
 
   .title {
@@ -119,6 +119,7 @@
     font-weight: 700;
     font-size: 45px;
     line-height: 50px;
+    margin-top: -20px;
   }
 
   .description {
@@ -128,7 +129,9 @@
     margin-bottom: 50px;
     line-height: 25px;
   }
-
+  .bttn{
+    margin-bottom: 40px;
+  }
   .join-button {
     position: absolute;
     left: calc(50% - 130px);

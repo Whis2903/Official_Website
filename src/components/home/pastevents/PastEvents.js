@@ -3,19 +3,20 @@ import "./PastEvents.css";
 import { Carousel } from "3d-react-carousal";
 import flutter from "../../../assets/Events/sample.png";
 import AutoFinal from "../../../assets/Events/sample.png";
+import Orientation from "../../../assets/Events/or3.jpg"
 // npm install 3d-react-carousal --force
 
 const PastEvents = () => {
   let slides = [
-    <img src={AutoFinal} className="imgg" alt="2" />,
-    <img src={flutter} className="imgg" alt="1" />,
+    <img src={Orientation} className="imgg" alt="1" />,
+    <img src={flutter} className="imgg" alt="2" />,
   ];
 
   const callback = function (index) {
     console.log("callback", index);
   };
   return (
-    <section className="section h-100vh" id="pastevent" style={{marginTop:"100px",marginBottom:"50px"}}>
+    <section className="section h-100vh" id="pastevent" style={{marginTop:"100px",marginBottom:"240px"}}>
       <div className="container">
         <div className="gbc2"></div>
         <div className="row">

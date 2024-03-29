@@ -28,4 +28,7 @@
     height: 70%!important;
     width: 100% !important;
   }
+  .section-title{
+    margin-top: -170px;
+  }
 }
