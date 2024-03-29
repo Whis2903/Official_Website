@@ -268,6 +268,7 @@ function Team() {
                           name="Srijita Seth"
                           role="PR Lead"
                           linkedinUrl="https://www.linkedin.com/in/"
+                          githubUrl="https://github.com/Srijitaseth"
                         />
                       </>
                     }
