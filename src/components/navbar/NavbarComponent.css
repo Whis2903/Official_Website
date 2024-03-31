@@ -3,6 +3,7 @@
   border-radius: 0px 0px 18px 18px;
   background: rgba( 255, 255, 255, 0.1 )!important;
   backdrop-filter: blur( 4.5px );
+  font-family: "Syne";
 }
 .nav-link {
   margin: 0px 12px;

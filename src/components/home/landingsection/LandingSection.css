@@ -26,6 +26,8 @@
   transition: all 0.5s;
   font-size: 15px;
   border-radius: 22px !important;
+  font-family: "Syne";
+  font-weight: bolder;
 }
 
 

@@ -14,7 +14,7 @@ const LandingSection = (props) => {
   return (
     <>
       <section className="landing-section section h-100vh" style={{marginTop:"80px"}}>
-      {/* <Alert show={show} variant="success" className="alert-custom">
+      <Alert show={show} variant="success" className="alert-custom">
   <Alert.Heading>Website Under Dev</Alert.Heading>
   <p>Do not share the link of the website to anyone outside the club before launching</p>
   <hr />
@@ -23,7 +23,7 @@ const LandingSection = (props) => {
       Close alert
     </Button>
   </div>
-</Alert> */}
+</Alert>
           <div className="container" style={{marginTop:"10px"}}>
             <div className="gbc1"></div>
             <div className="row justify-content-between mt-3">

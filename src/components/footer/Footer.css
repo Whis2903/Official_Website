@@ -4,6 +4,7 @@
   border-radius: 15px;
   padding: 35px;
   margin-bottom: 20px;
+  font-family: "Syne";
   /* Add box-shadow for the glowing effect */
   box-shadow: 0 0 20px rgba(87, 171, 215, 0.8); /* Light purple color with alpha for glow effect */
   animation: glow 2s infinite alternate; /* Apply animation for breathing effect */
@@ -36,7 +37,8 @@
   border: 2px dashed var(--secondary-color);
   color: var(--secondary-color);
   font-size: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Syne";
+  font-weight: 520;
   margin: auto;
 }
 .contact-list,
@@ -79,6 +81,7 @@
 }
 .footer-section-title {
   color: white!important;
+  font-family: "Syne";
 }
 @media (max-width: 768px) {
   .footer-section-title {
@@ -96,6 +99,7 @@
     width: 250px;
     height: 250px;
     margin: auto;
+    font-family: "Syne";
   }
   .list-item {
     margin: 0px;

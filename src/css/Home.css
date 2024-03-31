@@ -14,6 +14,9 @@
   opacity: 0.8;
   mix-blend-mode: screen;
 }
+.infoo{
+  font-family: "Syne";
+}
 .bbc1 {
   position: absolute;
   top: 70%;

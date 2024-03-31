@@ -264,13 +264,13 @@ function Team() {
                           linkedinUrl="https://www.linkedin.com/in/krishna-mahajan8764?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                           githubUrl="https://github.com/KRISHNA140504"
                         />
-                        <ProfileCard
+                        {/* <ProfileCard
                           img={Srijita}
                           name="Srijita Seth"
                           role="PR Lead"
                           linkedinUrl="https://www.linkedin.com/in/srijita-seth-365b9a262/"
                           githubUrl="https://github.com/Srijitaseth"
-                        />
+                        /> */}
                       </>
                     }
                   />
