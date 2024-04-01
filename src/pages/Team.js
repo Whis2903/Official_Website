@@ -15,7 +15,6 @@ import Dheeraj from "../assets/CoreMembers/Dheeraj.jpg";
 import Ayush from "../assets/CoreMembers/Ayush.png";
 import Yamika from "../assets/CoreMembers/yamika.jpeg";
 import Medha from "../assets/CoreMembers/medha.jpeg";
-import Nayana from "../assets/CoreMembers/nayana.jpeg";
 import Vaibhav from "../assets/CoreMembers/vaibhav.jpeg";
 import Krishna from "../assets/CoreMembers/krishna.jpeg";
 import Saptarishi from "../assets/CoreMembers/saptrishi.jpeg";
@@ -227,13 +226,13 @@ function Team() {
                           linkedinUrl="https://www.linkedin.com/in/dheeraj-sharma-97251120b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                           githubUrl="https://github.com/dheeraj5988"
                         />
-                        <ProfileCard
-                          img={ Nayana}
-                          name="Nayana Dinesh"
+                        {/* <ProfileCard
+                          img={Sample}
+                          name="Lead Name"
                           role="Creatives Lead"
-                          linkedinUrl="https://www.linkedin.com/in/nayana-dinesh-101905289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                          githubUrl="https://github.com/nayanadinesh"
-                        />
+                          linkedinUrl="https://www.linkedin.com/in/"
+                          githubUrl="https://github.com/"
+                        /> */}
                       </>
                     }
                   />
