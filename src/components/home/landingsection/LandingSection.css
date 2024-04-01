@@ -115,6 +115,9 @@
   .landing-section {
     margin: 100px 0px !important;
   }
+  .container{
+    margin-bottom: 15px;
+  }
 
   .title {
     font-family: "Syne";

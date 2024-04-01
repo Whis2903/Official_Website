@@ -1,10 +1,11 @@
 import React from 'react'
 import '../css/Bylaws.css'
+import { NavLink } from "react-router-dom";
 
 function Bylaws() { 
   return (
     <>
-    <section className="section">
+    <section className="section secn">
         <div className="container" style={{marginTop:"100px"}}>
           <div className="gbc1"></div>
           <div className="row ">
@@ -129,6 +130,9 @@ The Chapter shall hold meetings only in places that are open and accessible to a
                     <p style={{marginTop:"-5px"}}>2. Should this Chapter be dissolved, its assets and liabilities shall be trans- ferred to ACM and shall be supervised by the ACM Director of Finance. Funds given to the chapter from the University shall be returned to the University.</p>
                   </div>
                 </div>
+                <NavLink target='_blank' rel='noreffer' to='https://www.acm.org/about-acm/acm-bylaws' className="bbt join-button btn join-button-container" style={{fontWeight:"bold"}}>
+                  For More Information Click Here
+                </NavLink>
               </div>
             </div>
           </div>

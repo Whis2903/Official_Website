@@ -5,4 +5,24 @@
   .art{
     margin-top: 10px!important;
   }
+  .bbt {
+    position: absolute;
+    left: calc(50% - 160px)!important;
+    font-size: 13px!important;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(87, 171, 215, 0.8);
+  }
+  .secn{
+    margin-bottom: 40px;
+  }
+}
+.bbt {
+  position: absolute;
+  left: calc(50% - 210px);
+  font-size: 18px;
+  margin-top: 20px;
+  box-shadow: 0 0 20px rgba(87, 171, 215, 0.8);
+}
+.secn{
+  margin-bottom: 50px;
 }
