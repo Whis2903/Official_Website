@@ -111,7 +111,7 @@ function NavbarComponent() {
               >
                 About Us
               </Nav.Link>
-              <Nav.Link
+              {/* <Nav.Link
                 as={HashLink}
                 to="/home#upcomingevents"
                 style={{fontWeight:"bolder"}}
@@ -123,7 +123,7 @@ function NavbarComponent() {
                 className={activeLink === "/home#upcomingevents" ? "active" : ""}
               >
                 Events
-              </Nav.Link>
+              </Nav.Link> */}
               <Nav.Link
                 as={NavLink}
                 to="/bylaws"
