@@ -13,6 +13,7 @@ import About from './pages/About'
 import Faq from './pages/Faq'
 import Event from './pages/Event';
 import Event2 from './pages/Event2';
+import Err from './components/err/Err';
 
 import {Routes, Route,} from 'react-router-dom';
 import ScrollToTop from './components/scrollToTop/ScrollToTop';
@@ -30,7 +31,7 @@ function App() {
       <Route path="about" element={<About/>} />
       <Route path="faq" element={<Faq/>} />
       <Route path="event" element={<Event/>} />
-      <Route path="event2" element={<Event2/>} />
+      <Route path="*" element={<Err />} />
     </Routes>
     <Footer/>
     </>
