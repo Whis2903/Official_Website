@@ -23,8 +23,8 @@ import PCKar from "../assets/CoreMembers/drpckar.jpeg";
 import Vishal from "../assets/Developers/vishal.png";
 import Ansh from "../assets/CoreMembers/ansh.png";
 import Gupta from "../assets/Developers/gupta.png";
+// eslint-disable-next-line
 import Samplee from "../assets/CoreMembers/Samplee.png";
-import Srijita from "../assets/CoreMembers/srijita.jpeg"
 
 function Team() {
   return (

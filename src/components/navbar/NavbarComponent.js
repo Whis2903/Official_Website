@@ -7,7 +7,6 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import { Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
 import SRMSIGKDD from "../../assets/Images/srmsigkdd.png";
 
 import "./NavbarComponent.css";
@@ -76,7 +75,7 @@ function NavbarComponent() {
       >
         <Container>
           <Navbar.Brand className="namee"
-            href="/home"
+            href="/"
             style={{ fontFamily: "Syne", color: "var(--secondary-color)" }}
           >
             <img src={SRMSIGKDD} width="70" height="60" alt="srm sigkdd logo" style={{paddingRight:"10px"}}/>
@@ -87,14 +86,14 @@ function NavbarComponent() {
             <Nav className="mx-auto">
               <Nav.Link
                 as={NavLink}
-                to="/home"
+                to="/"
                 style={{fontWeight:"bolder"}}
                 onClick={() => {
-                  setActiveLink("/home");
+                  setActiveLink("/");
                   window.innerWidth <= 768 &&
                     document.querySelector(".navbar-toggler").click();
                 }}
-                className={activeLink === "/home" ? "active" : ""}
+                className={activeLink === "/" ? "active" : ""}
               >
                 Home
               </Nav.Link>
@@ -113,14 +112,14 @@ function NavbarComponent() {
               </Nav.Link>
               {/* <Nav.Link
                 as={HashLink}
-                to="/home#upcomingevents"
+                to="/#upcomingevents"
                 style={{fontWeight:"bolder"}}
                 onClick={() => {
-                  setActiveLink("/home#upcomingevents");
+                  setActiveLink("/#upcomingevents");
                   window.innerWidth <= 768 &&
                     document.querySelector(".navbar-toggler").click();
                 }}
-                className={activeLink === "/home#upcomingevents" ? "active" : ""}
+                className={activeLink === "/#upcomingevents" ? "active" : ""}
               >
                 Events
               </Nav.Link> */}

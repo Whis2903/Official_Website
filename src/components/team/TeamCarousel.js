@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import { Carousel } from "react-bootstrap";
+// eslint-disable-next-line
 import Sample from "../../assets/Events/sample.png"
 import Orientation1 from "../../assets/Events/or1.jpg"
 import Core from "../../assets/Events/core.jpg"

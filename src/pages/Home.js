@@ -5,6 +5,7 @@ import BlogSection from '../components/home/blogsection/BlogSection'
 import LandingSection from '../components/home/landingsection/LandingSection'
 // eslint-disable-next-line
 import PastEvents from '../components/home/pastevents/PastEvents'
+// eslint-disable-next-line
 import UpcomingEvent from '../components/home/upcomingsection/UpcomingEvent'
 import SponsorSection from '../components/home/sponsorsection/SponsorSection'
 // eslint-disable-next-line
