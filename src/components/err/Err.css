@@ -1,14 +1,34 @@
 .head404{
-    margin-top: 100px!important;
-    font-size: 140px;
+    margin-top: 70px!important;
+    font-size: 40px;
 }
 .pp404{
     font-size:20px!important;
+    margin-top: -400px!important;
+}
+.Erlogo{
+  filter: drop-shadow(0 0 5px #57abd7);
+}
+.er{
+  width: 40%!important;
 }
 @media screen and (max-width: 576px) {
   .head404{
-    margin-top: -20px!important;
-    font-size: 140px;
+    margin-top: -30px!important;
+    font-size: 13px;
+}
+.er{
+  margin-top: -40px;
+}
+.Erlogo {
+  width: 150%;
+  display: flex;
+  margin-left: 70px;
+  filter: drop-shadow(0 0 2px #57abd7);
+}
+.pp404{
+  font-size:10px!important;
+  margin-top: -400px!important;
 }
 }
 @keyframes fadeUpp {
