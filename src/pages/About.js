@@ -19,6 +19,11 @@ function About() {
             </div>
           </div>
           <div className="container">
+                <div className="d-flex" style={{ flex: "50%" ,fontWeight:"500"}}>
+                  <div>
+                    <p className='textt'>The ACM SIGKDD Student Chapter at SRM KTR Campus is a dynamic community of students passionate about data science and its applications. As an official student chapter of ACM SIGKDD (Special Interest Group on Knowledge Discovery in Data), we are committed to fostering a culture of innovation, learning, and collaboration in the field of data science.</p>
+                  </div>
+                </div>
   <div className="content">
   </div>
 </div>

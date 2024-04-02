@@ -79,7 +79,7 @@ function NavbarComponent() {
             style={{ fontFamily: "Syne", color: "var(--secondary-color)" }}
           >
             <img src={SRMSIGKDD} width="70" height="60" alt="srm sigkdd logo" style={{paddingRight:"10px"}}/>
-            SIGKDD Student Chapter SRM KTR
+            SRM KTR ACM SIGKDD Student Chapter
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" style={{marginTop: "24px", marginLeft: "auto"}} />
           <Navbar.Collapse id="basic-navbar-nav">

@@ -2,4 +2,14 @@
     .mobtitle{
         margin-top: 110px!important;
     }
+    .textt{
+        font-size: 15px!important;
+    }
   }
+.textt{
+    font-family: "Syne";
+    font-weight: 550;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+}

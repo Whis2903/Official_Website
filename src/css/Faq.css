@@ -5,8 +5,10 @@
   .accordion-collapse {
     transition: height 0.3s ease;
   }
-  
-  /* Adjust other styles as needed */
+  .accordion-item {
+    margin-bottom: 3px;
+    border-color: black;
+  }
   .accordion {
     width: 80%;
     margin: 0 auto; /* Align center */
@@ -39,6 +41,9 @@
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
     border-color: transparent;
     font-weight: 500;
+    height: auto; /* Set a fixed height */
+    overflow: hidden; /* Hide overflow content */
+    transition: height 0.3s ease; /* Add transition effect */
   }
   @keyframes glow {
     0% {
