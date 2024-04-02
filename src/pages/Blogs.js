@@ -19,60 +19,11 @@ function Blogs() {
           </div>
           <div className="blog-card-container">
             <Blogcard
-              imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
-              title="Blog Title"
-              aboutblog="Creator Name"
-              role="Member"
-              Mediumlink="https://www.linkedin.com/in/"
-            />
-            <Blogcard
-              imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
-              title="Blog Title"
-              aboutblog="Creator Name"
-              role="Member"
-              Mediumlink="https://www.linkedin.com/in/"
-            />
-           <Blogcard
-              imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
-              title="Blog Title"
-              aboutblog="Creator Name"
-              role="Member"
-              Mediumlink="https://www.linkedin.com/in/"
-            />
-            <Blogcard
-              imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
-              title="Blog Title"
-              aboutblog="Creator Name"
-              role="Member"
-              Mediumlink="https://www.linkedin.com/in/"
-            />
-            <Blogcard
-              imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
-              title="Blog Title"
-              aboutblog="Creator Name"
-              role="Member"
-              Mediumlink="https://www.linkedin.com/in/"
-            />
-            <Blogcard
-              imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
-              title="Blog Title"
-              aboutblog="Creator Name"
-              role="Member"
-              Mediumlink="https://www.linkedin.com/in/"
-            />
-            <Blogcard
-              imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
-              title="Blog Title"
-              aboutblog="Creator Name"
-              role="Member"
-              Mediumlink="https://www.linkedin.com/in/"
-            />
-            <Blogcard
-              imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
-              title="Blog Title"
-              aboutblog="Creator Name"
-              role="Member"
-              Mediumlink="https://www.linkedin.com/in/"
+              imgSrc="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*AMm6E7rpmHT4ca30cIiY2Q.png"
+              title="From Words to Graphs: How Deep Graph Learning is Revolutionising NLP"
+              aboutblog="ADITYA VERMA"
+              role="Chairperson"
+              Mediumlink="https://medium.com/data-science-community-srm/deep-graph-learning-193cc0f6dd18"
             />
           </div>
         </div>
