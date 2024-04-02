@@ -88,6 +88,9 @@
     transform: scale(1.05); 
     color: #f3f3f3; /* Change text color to white on hover */
   }
+  .corp{
+    margin-top: 30px;
+  }
   .image{
     width: 70%;
     height: auto;
@@ -99,7 +102,7 @@
     width: calc(85%); 
     padding: 20px 4px; 
     }
-    .logo image {
+    .logo image corp{
       width: 70%;
       height: auto;
       margin-bottom: 10px!important;
