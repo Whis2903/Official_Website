@@ -1,0 +1,114 @@
+
+
+.domains-container {
+    max-width: 800px;
+    margin: 180px auto; 
+    padding-top: 20px;
+    padding-bottom: 80px;
+    text-align: center;
+    font-family: "Syne";
+    margin-bottom: 230px;
+    margin-top: 0px;
+  }
+  
+  .domains-title {
+    font-family: "Syne";
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #57abd7; 
+    display: inline-block; 
+    margin-bottom: 60px;
+  }/** tried adding margin here keeps reverting back to normal**/
+  
+  .domains-content {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .domain-card {
+    /* Add your existing styles here */
+    filter: blur(0); /* Initial no blur */
+    transition: filter 0.5s ease; /* Smooth transition for blur effect */
+  }
+  
+  .domain-card.blur {
+    filter: blur(5px);
+    transition: filter 0.5s ease; /* Adjust the blur intensity as needed */
+  }
+  .section-title {
+    font-family: "Syne";
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .domains-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted width of cards */
+    gap: 40px; /* Space between cards */
+  }
+  
+  .domain-card {
+    border: 1px solid transparent;
+    border-radius: 22px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(87, 171, 215, 0.8);
+    animation: glow 3s infinite alternate;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Add transition for background color */
+  }
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 5px rgba(87, 171, 215, 0.8); /* Initial glow */
+    }
+    50% {
+      box-shadow: 0 0 10px rgba(87, 171, 215, 0.8); /* Medium glow */
+    }
+    100% {
+      box-shadow: 0 0 20px rgba(87, 171, 215, 0.8); /* Increased glow */
+    }
+  }
+  .domain-card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+    box-shadow: 0 0 20px rgba(87, 171, 215, 0.5); /* Glowing box shadow on hover */
+    background-color: #57abd7; /* Change background color on hover */
+  }
+  
+  .domain-card h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+    font-weight: bold;
+  }
+  .domain-card p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .domain-card:hover h3 {
+    transform: scale(1.05); 
+    color: #f3f3f3; /* Change text color to white on hover */
+  }
+  .image{
+    width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  @media screen and (max-width: 576px) {
+    .domains-container{
+    margin-top: -120px;
+    width: calc(85%); 
+    padding: 20px 4px; 
+    }
+  }
+  @keyframes fadeUpFromBlur {
+    0% {
+      opacity: 0;
+      filter: blur(10px);
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      filter: blur(0);
+      transform: translateY(0);
+    }
+  }
+  
