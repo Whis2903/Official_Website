@@ -27,7 +27,7 @@ Founded in 2024, our chapter is dedicated to fostering learning, collaboration, 
 <br>
 
 ## Demo Screenshot of Home Page
-<img align="center" alt="Home Page"  src="https://raw.githubusercontent.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website/main/public/ss.png">
+<img align="center" alt="Home Page"  src="./public/ss.png">
 
 ## Setting Up Fortuna
 
