@@ -1,12 +1,22 @@
 .blog-card {
   background-color: black;
-  animation: glow 3s infinite alternate;
+  animation: glowblog 3s infinite alternate;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   font-weight: 550;
   height: 100%;
   position: relative; /* Ensure relative positioning */
 }
-
+@keyframes glowblog {
+  0% {
+    box-shadow: 0 0 5px rgba(87, 171, 215, 0.8); /* Initial glow */
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(87, 171, 215, 0.8); /* Medium glow */
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(87, 171, 215, 0.8); /* Increased glow */
+  }
+}
 .blog-card-container {
   display: grid!important;
   grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr))!important;
