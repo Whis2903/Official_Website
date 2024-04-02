@@ -21,14 +21,14 @@ function Blogs() {
           </div>
           <ul className="nav nav-tabs justify-content-center" role="tablist" style={{ marginBottom: "35px" }}>
             <Tab
-              className="nav-link tab-btn"
+              className="nav-link tab-btn active"
               id="rd-tab"
               targetID="#rd-tab-pane"
               title="Research & Development"
               selected={false}
             />
             <Tab
-              className="nav-link tab-btn active"
+              className="nav-link tab-btn"
               id="webapp-tab"
               targetID="#web-app-tab-pane"
               title="Web/App Development"
