@@ -1,9 +1,14 @@
-import React from "react";
+import React,{useState} from "react";
 import Blogcard from "../components/blogs/blogcard/Blogcard";
 import Tab from "../components/team/tabbar/Tab";
 import "../css/Blogs.css";
 
 function Blogs() {
+  const [selectedTab, setSelectedTab] = useState("rd-tab"); // Default selected tab is R&D
+
+  const handleTabClick = (tabId) => {
+    setSelectedTab(tabId);
+  };
   return (
     <>
       <section className="landing-section section h-70vh" style={{ marginTop: "220px" }}>
