@@ -11,6 +11,7 @@ function Blogcard(props) {
         <Card.Body className='blog-body'>
           <Card.Title className='blog-title'>{props.title}</Card.Title>
           <Card.Text className='blog-text'>{props.aboutblog}</Card.Text>
+          <Card.Subtitle className='blog-role'>{props.role}</Card.Subtitle>
           <Button variant="primary" className="blog-button btn" target='_blank' rel='noreffer' href={props.Mediumlink}>Medium Link</Button>
         </Card.Body>
       </Card>

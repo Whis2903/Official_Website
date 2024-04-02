@@ -21,49 +21,57 @@ function Blogs() {
             <Blogcard
               imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
               title="Blog Title"
-              aboutblog="About Blog"
+              aboutblog="Creator Name"
+              role="Member"
               Mediumlink="https://www.linkedin.com/in/"
             />
             <Blogcard
               imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
               title="Blog Title"
-              aboutblog="About Blog"
+              aboutblog="Creator Name"
+              role="Member"
               Mediumlink="https://www.linkedin.com/in/"
             />
            <Blogcard
               imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
               title="Blog Title"
-              aboutblog="About Blog"
+              aboutblog="Creator Name"
+              role="Member"
               Mediumlink="https://www.linkedin.com/in/"
             />
             <Blogcard
               imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
               title="Blog Title"
-              aboutblog="About Blog"
+              aboutblog="Creator Name"
+              role="Member"
               Mediumlink="https://www.linkedin.com/in/"
             />
             <Blogcard
               imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
               title="Blog Title"
-              aboutblog="About Blog"
+              aboutblog="Creator Name"
+              role="Member"
               Mediumlink="https://www.linkedin.com/in/"
             />
             <Blogcard
               imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
               title="Blog Title"
-              aboutblog="About Blog"
+              aboutblog="Creator Name"
+              role="Member"
               Mediumlink="https://www.linkedin.com/in/"
             />
             <Blogcard
               imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
               title="Blog Title"
-              aboutblog="About Blog"
+              aboutblog="Creator Name"
+              role="Member"
               Mediumlink="https://www.linkedin.com/in/"
             />
             <Blogcard
               imgSrc="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
               title="Blog Title"
-              aboutblog="About Blog"
+              aboutblog="Creator Name"
+              role="Member"
               Mediumlink="https://www.linkedin.com/in/"
             />
           </div>

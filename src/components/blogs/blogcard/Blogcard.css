@@ -2,6 +2,7 @@
     background-color: black;
     animation: glow 3s infinite alternate;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    font-weight: 550;
 }
 .blog-card-container {
     display: grid!important;
@@ -16,7 +17,12 @@
     border: 2px solid var(--secondary-color);
     font-weight: bold;
 }
-
+.blog-role {
+  margin-top: -20px;
+  margin-bottom: 25px;
+  color: #7e7e7e;
+  font-weight: 550;
+}
 .blog-button:hover {
     background-color: black; /* Corrected value */
     color: var(--secondary-color);
@@ -35,6 +41,13 @@
   
     .blog-text {
       font-size: 16px; /* Adjust font size */
+    }
+    .blog-role{
+      margin-top: -15px;
+      font-size: 15px;
+      color: #7e7e7e;
+      margin-bottom: 20px;
+      font-weight: 550;
     }
   
     .blog-button {
