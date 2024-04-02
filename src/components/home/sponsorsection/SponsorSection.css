@@ -165,4 +165,10 @@
     margin-top: 25px!important;
     margin-bottom: -20px!important;
   }
+  .mobfixerdown{
+    margin-bottom:-130px;
+  }
+  .mobfixeup{
+    margin-top: -100px;
+  }
 }

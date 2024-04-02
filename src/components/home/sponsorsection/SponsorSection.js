@@ -23,6 +23,7 @@ const SponsorSection = (props) => {
   }, []);
   return (
     <>
+    <p className="mobfixeup"></p>
       <section className="landing-section section h-70vh" style={{marginTop:"150px"}}>
         <div className="container" style={{ marginTop: "-210px" }}>
           <div className="gbc1"></div>
@@ -56,6 +57,7 @@ const SponsorSection = (props) => {
 
         </div>
       </section>
+      <p className="mobfixerdown"></p>
     </>
   );
 };

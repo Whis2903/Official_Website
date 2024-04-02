@@ -17,6 +17,7 @@ const PastEvents = () => {
   };
   return (
     <section className="section h-100vh" id="pastevent" style={{marginTop:"100px",marginBottom:"240px"}}>
+      <p className="mobfixeuppast"></p>
       <div className="container">
         <div className="gbc2"></div>
         <div className="row">
