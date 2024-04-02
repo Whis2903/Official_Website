@@ -9,7 +9,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/ADITYAVOFFICIAL/Official_Website)
 
 <p align="center">
-  <a href="srmsigkdd.vercel.app">
+  <a href="srmsigkddtesting.vercel.app">
     <img alt = "Logo" height="150" width="150" src = "./public/apple-touch-icon.png">
   </a>
 
