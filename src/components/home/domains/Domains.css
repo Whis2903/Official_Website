@@ -99,6 +99,11 @@
     width: calc(85%); 
     padding: 20px 4px; 
     }
+    .logo image {
+      width: 70%;
+      height: auto;
+      margin-bottom: 10px!important;
+    }
   }
 @keyframes fadeUpFromBlur {
   0% {

@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import './Domains.css';
-import RDLogo from "./images/rd.png"
-import Creatives from "./images/creatives.png"
-import WebApp from "./images/webapp.png"
-import Corp from "./images/corp.png"
+import RDLogo from "./images/rd.svg"
+import Creatives from "./images/creatives.svg"
+import WebApp from "./images/webapp.svg"
+import Corp from "./images/corp.svg"
 import "aos/dist/aos.css";
 import AOS from 'aos';
 
@@ -40,7 +40,7 @@ function Domains() {
           </p>
         </div>
         <div className="domain-card" data-aos="fade-up" data-aos-duration="1000">
-          <div className="logo"><img src={Corp} className='image'/></div> {/* Placeholder for logo */}
+          <div className="logo" style={{marginBottom:"55px"}}><img src={Corp} className='image'/></div> {/* Placeholder for logo */}
           <h3>Corporate</h3>
           <p>
             Corporate domain deals with business strategies, management, and operations within organizations.
