@@ -2,7 +2,8 @@ import './css/App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
-
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import Navbar from './components/navbar/NavbarComponent';
 import Footer from './components/footer/Footer';
 import Home from './pages/Home';
