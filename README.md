@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="srmsigkdd.vercel.app">
-    <img alt = "Logo" height="150" width="150" src = "https://raw.githubusercontent.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website/main/public/favicon-32x32.png">
+    <img alt = "Logo" height="150" width="150" src = "./public/apple_touch.png">
   </a>
 
 </p>
