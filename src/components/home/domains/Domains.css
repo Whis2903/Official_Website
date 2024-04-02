@@ -28,12 +28,12 @@
   .domain-card {
     /* Add your existing styles here */
     filter: blur(0); /* Initial no blur */
-    transition: filter 0.5s ease; /* Smooth transition for blur effect */
+    transition: filter 0.5s ease;
   }
   
   .domain-card.blur {
     filter: blur(5px);
-    transition: filter 0.5s ease; /* Adjust the blur intensity as needed */
+    transition: filter 0.5s ease,; /* Adjust the blur intensity as needed */
   }
   .section-title {
     font-family: "Syne";
@@ -68,7 +68,7 @@
     }
   }
   .domain-card:hover {
-    transform: scale(1.05); /* Scale up the card on hover */
+    transition: background-color 0.6s, transform 5s!important;
     box-shadow: 0 0 20px rgba(87, 171, 215, 0.5); /* Glowing box shadow on hover */
     background-color: #57abd7; /* Change background color on hover */
   }
@@ -84,7 +84,6 @@
     line-height: 1.6;
   }
   .domain-card:hover h3 {
-    transform: scale(1.05); 
     color: #f3f3f3; /* Change text color to white on hover */
   }
   .image{
