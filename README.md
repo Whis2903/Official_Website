@@ -1,5 +1,5 @@
 
-![Status](https://img.shields.io/website-up-down-green-red/https://srmsigkdd.vercel.app/.svg)
+![Status](https://img.shields.io/website-up-down-green-red/https/srmsigkdd.vercel.app/.svg)
 ![Forks](https://img.shields.io/github/forks/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
 ![Issues](https://img.shields.io/github/issues/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
 ![PR](https://img.shields.io/github/issues-pr/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/Official_Website.svg)
