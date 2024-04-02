@@ -33,7 +33,7 @@ Founded in 2024, our chapter is dedicated to fostering learning, collaboration, 
 
 1. Installing Dependencies:
     ```bash
-       npm install --legacy-peer-deps
+       npm install
 
 2. Starting the Server:
     ```bash
