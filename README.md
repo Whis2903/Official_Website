@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="srmsigkdd.vercel.app">
-    <img alt = "Logo" height="150" width="150" src = "./public/apple_touch.png">
+    <img alt = "Logo" height="150" width="150" src = "./public/apple-touch-icon.png">
   </a>
 
 </p>
