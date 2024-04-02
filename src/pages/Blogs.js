@@ -25,6 +25,13 @@ function Blogs() {
               role="Chairperson"
               Mediumlink="https://medium.com/data-science-community-srm/deep-graph-learning-193cc0f6dd18"
             />
+            <Blogcard
+              imgSrc="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*_dluUkHWTPSVw10Z6LhAlQ.png"
+              title="GANs in Big Data Analytics and Data Science"
+              aboutblog="ADITYA VERMA"
+              role="Chairperson"
+              Mediumlink="https://medium.com/@adityaver/gans-in-big-data-analytics-and-data-science-95caa0cc2054"
+            />
           </div>
         </div>
       </section>

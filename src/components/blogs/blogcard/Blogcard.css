@@ -1,57 +1,68 @@
-.blog-card{
-    background-color: black;
-    animation: glow 3s infinite alternate;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-    font-weight: 550;
+.blog-card {
+  background-color: black;
+  animation: glow 3s infinite alternate;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  font-weight: 550;
+  height: 100%;
+  position: relative; /* Ensure relative positioning */
 }
+
 .blog-card-container {
-    display: grid!important;
-    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr))!important;
-    grid-gap: 20px!important;
-  }
-  
-  
-.blog-button {
-    background-color: var(--secondary-color);
-    color: var(--accent-color);
-    border: 2px solid var(--secondary-color);
-    font-weight: bold;
+  display: grid!important;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr))!important;
+  grid-gap: 20px!important;
 }
+
+.button-container {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+}
+
+.blog-button {
+  background-color: var(--secondary-color);
+  color: var(--accent-color);
+  border: 2px solid var(--secondary-color);
+  font-weight: bold;
+}
+
 .blog-role {
   margin-top: -20px;
   margin-bottom: 25px;
   color: #7e7e7e;
   font-weight: 550;
 }
+
 .blog-button:hover {
-    background-color: black; /* Corrected value */
-    color: var(--secondary-color);
-    border: 2px solid #3fb4f3; /* Corrected value */
+  background-color: black; /* Corrected value */
+  color: var(--secondary-color);
+  border: 2px solid #3fb4f3; /* Corrected value */
 }
+
 @media screen and (max-width: 768px) {
-    .blog-card {
-      width: calc(90%); 
+  .blog-card {
+      width: calc(90%);
       margin-bottom: 30px;
       margin-top: 30px;
-    }
-  
-    .blog-title {
+  }
+
+  .blog-title {
       font-size: 18px; /* Adjust font size */
-    }
-  
-    .blog-text {
+  }
+
+  .blog-text {
       font-size: 16px; /* Adjust font size */
-    }
-    .blog-role{
+  }
+  .blog-role {
       margin-top: -15px;
       font-size: 15px;
       color: #7e7e7e;
       margin-bottom: 20px;
       font-weight: 550;
-    }
-  
-    .blog-button {
+  }
+
+  .blog-button {
       height: 40px; /* Adjust button height */
       font-size: 16px; /* Adjust font size */
-    }
   }
+}
