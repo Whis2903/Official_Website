@@ -7,9 +7,12 @@ import acmblue from "./images/acmblue-line.png";
 import blueLine from "./images/blue-line.png";
 import smacmblue from "./images/sm-blue-line.png";
 import { useState } from 'react';
+// eslint-disable-next-line
 import Alert from 'react-bootstrap/Alert';
+// eslint-disable-next-line
 import Button from 'react-bootstrap/Button';
 const LandingSection = (props) => {
+  // eslint-disable-next-line
   const [show, setShow] = useState(true);
   return (
     <>

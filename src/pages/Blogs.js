@@ -1,6 +1,5 @@
-import React,{useState} from "react";
+import React from "react";
 import Blogcard from "../components/blogs/blogcard/Blogcard";
-import Tab from "../components/team/tabbar/Tab";
 import "../css/Blogs.css";
 
 function Blogs() {
