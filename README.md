@@ -47,7 +47,7 @@ flowchart LR
 A(Round)
 A[Git Clone] --> B(Round)
 C(Round)
-B[Open Folder] --> C[npm install --legacy-peer-deps] -->D[npm start]
+B[Open Folder] --> C[npm install] -->D[npm start]
 ```
 
  ## 💻 Current Tech Stack
