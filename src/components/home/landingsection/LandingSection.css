@@ -4,7 +4,12 @@
   font-size: 50px;
   line-height: 66.41px;
 }
-
+.landing-section{
+  opacity: 0;
+  filter: blur(10px);
+  transform: translateY(50px);
+  animation: fadeUpFromBlur 1.5s ease forwards;
+}
 .description {
   font-family: "Syne";
   font-size: 20px;
@@ -185,4 +190,16 @@
 }
 .btn{
   box-shadow: 0 0 20px rgba(87, 171, 215, 0.8);
+}
+@keyframes fadeUpFromBlur {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
 }

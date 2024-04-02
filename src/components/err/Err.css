@@ -5,3 +5,15 @@
 .pp404{
     font-size:20px!important;
 }
+@keyframes fadeUpp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+      backface-visibility: hidden; /* Add this line */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+      backface-visibility: hidden; /* Add this line */
+    }
+}

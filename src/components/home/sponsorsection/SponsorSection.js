@@ -1,10 +1,26 @@
-import React from "react";
+import React,{useEffect,useRef} from "react";
 import "./SponsorSection.css";
 import srmLogo from "../sponsorsection/images/srm.svg"; 
 import dsbslogo from "../sponsorsection/images/dsbs.png";
 import acmlogo from "../sponsorsection/images/acm.png";
 import sigkdd from "../sponsorsection/images/sigkdd.png"
+import AOS from "aos";
 const SponsorSection = (props) => {
+  const srmRef = useRef(null);
+  const dsbsRef = useRef(null);
+  const sigkddRef = useRef(null);
+  const acmRef = useRef(null);
+
+  useEffect(() => {
+    const elements = [srmRef.current, dsbsRef.current, sigkddRef.current, acmRef.current];
+    elements.forEach((element, index) => {
+      if (element) {
+        setTimeout(() => {
+          element.classList.add("fade-up");
+        }, index * 300); // Adjust the delay between each image appearance
+      }
+    });
+  }, []);
   return (
     <>
       <section className="landing-section section h-70vh" style={{marginTop:"150px"}}>

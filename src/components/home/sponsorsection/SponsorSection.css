@@ -12,7 +12,20 @@
   margin-bottom: 40px;
   line-height: 30px;
 }
+.fade-up {
+  animation: fadeUp 0.5s ease forwards;
+}
 
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .join-button {
   color: #ffffff;
   background-color: #57abd7 !important;

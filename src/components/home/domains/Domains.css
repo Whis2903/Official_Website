@@ -25,7 +25,16 @@
     font-size: 16px;
     line-height: 1.6;
   }
+  .domain-card {
+    /* Add your existing styles here */
+    filter: blur(0); /* Initial no blur */
+    transition: filter 0.5s ease; /* Smooth transition for blur effect */
+  }
   
+  .domain-card.blur {
+    filter: blur(5px);
+    transition: filter 0.5s ease; /* Adjust the blur intensity as needed */
+  }
   .section-title {
     font-family: "Syne";
     font-size: 45px;
@@ -90,3 +99,16 @@
     padding: 20px 4px; 
     }
   }
+  @keyframes fadeUpFromBlur {
+    0% {
+      opacity: 0;
+      filter: blur(10px);
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      filter: blur(0);
+      transform: translateY(0);
+    }
+  }
+  
