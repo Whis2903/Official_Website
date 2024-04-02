@@ -1,7 +1,6 @@
 import React from 'react'
 import '../css/Home.css'
 // eslint-disable-next-line
-import BlogSection from '../components/home/blogsection/BlogSection'
 import LandingSection from '../components/home/landingsection/LandingSection'
 // eslint-disable-next-line
 import PastEvents from '../components/home/pastevents/PastEvents'
@@ -28,8 +27,6 @@ function Home() {
     <PastEvents />
     <div className='container'></div>
     <SponsorSection />
-   
-    {/* <BlogSection /> */}
     
     {/* <div style={{ display: 'flex', justifyContent: 'center',marginBottom:"50px"}}>
   <InstagramEmbed url="https://www.instagram.com/srmsigkdd" width={500} style={{borderRadius:"15px"}}/>
