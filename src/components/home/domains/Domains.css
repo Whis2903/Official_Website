@@ -25,16 +25,7 @@
     font-size: 16px;
     line-height: 1.6;
   }
-  .domain-card {
-    /* Add your existing styles here */
-    filter: blur(0); /* Initial no blur */
-    transition: filter 0.5s ease;
-  }
   
-  .domain-card.blur {
-    filter: blur(5px);
-    transition: filter 0.5s ease,; /* Adjust the blur intensity as needed */
-  }
   .section-title {
     font-family: "Syne";
     font-size: 45px;
@@ -54,7 +45,7 @@
     padding: 20px;
     box-shadow: 0 0 20px rgba(87, 171, 215, 0.8);
     animation: glow 3s infinite alternate;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Add transition for background color */
+    transition: filter 0.5s ease, transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Add transition for background color */
   }
   @keyframes glow {
     0% {
@@ -68,11 +59,20 @@
     }
   }
   .domain-card:hover {
-    transition: background-color 0.6s, transform 5s!important;
+    transform: scale(1.03);
+    transition: background-color 0.8s!important;
     box-shadow: 0 0 20px rgba(87, 171, 215, 0.5); /* Glowing box shadow on hover */
     background-color: #57abd7; /* Change background color on hover */
   }
-  
+  .domain-card:hover .image {
+    transform: scale(1.1); /* Scale effect on hover */
+  }
+  .image {
+    width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 1s ease; /* Smooth transition for hover effect */
+  }
   .domain-card h3 {
     font-size: 30px;
     margin-bottom: 10px;
@@ -84,6 +84,7 @@
     line-height: 1.6;
   }
   .domain-card:hover h3 {
+    transform: scale(1.05); 
     color: #f3f3f3; /* Change text color to white on hover */
   }
   .image{
@@ -98,16 +99,15 @@
     padding: 20px 4px; 
     }
   }
-  @keyframes fadeUpFromBlur {
-    0% {
-      opacity: 0;
-      filter: blur(10px);
-      transform: translateY(50px);
-    }
-    100% {
-      opacity: 1;
-      filter: blur(0);
-      transform: translateY(0);
-    }
+@keyframes fadeUpFromBlur {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateY(50px);
   }
-  
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}
