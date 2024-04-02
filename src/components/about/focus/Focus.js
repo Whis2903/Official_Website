@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
-import './Domains.css';
-import RDLogo from "./images/rd.png"
-import Creatives from "./images/creatives.png"
-import WebApp from "./images/webapp.png"
-import Corp from "./images/corp.png"
+import './Focus.css';
+import Hackathons from "./images/win.svg"
+import Learn from "./images/learning.svg"
+import Network from "./images/networking.svg"
+import Handson from "./images/handson.svg"
 import "aos/dist/aos.css";
 import AOS from 'aos';
 
-function Domains() {
+function Focus() {
   useEffect(() => {
     AOS.init({
       duration: 1000, // Adjust the duration as needed
@@ -17,45 +17,33 @@ function Domains() {
   }, []);
 
   return (
-    <div className="domains-container">
-      <h2 className="section-title" style={{marginBottom:"35px"}}>
-        Explore our{" "}
-        <span style={{ color: "var(--secondary-color)" }}>
-          Domains
+    <div className="focus-container">
+      <h2 className="section-title focus-title" style={{marginTop:"20px"}}>
+        Our main{" "}
+        <span style={{ color: "var(--secondary-color)",textShadow: "0 0 10px #57abd7, 0 0 20px #57abd7" }}>
+          Focus
         </span>{" "}
       </h2>
-      <div className="domains-grid">
-        <div className="domain-card" data-aos="fade-up" data-aos-duration="1000">
-          <div className="logo"><img src={RDLogo} className='image'/></div> {/* Placeholder for logo */}
-          <h3>R&D</h3>
-          <p>
-            Research and Development domain involves exploring new ideas, technologies, and methodologies to drive innovation.
-          </p>
+      <div className="focus-grid">
+        <div className="focus-card" data-aos="fade-up" data-aos-duration="1000">
+          <div className="logo"><img src={Learn} className='image' style={{marginTop:"45px"}}/></div> {/* Placeholder for logo */}
+          <h3 style={{textShadow: "0 0 10px #57abd7, 0 0 0px #57abd7"}}>Promoting Knowledge</h3>
         </div>
-        <div className="domain-card" data-aos="fade-up" data-aos-duration="1000">
-          <div className="logo"><img src={WebApp} className='image' /></div> {/* Placeholder for logo */}
-          <h3>Web/App Dev</h3>
-          <p>
-          Developing and maintaining websites with intuitive user interface and seamless user experience along with precise server-side web application logic.
-          </p>
+        <div className="focus-card" data-aos="fade-up" data-aos-duration="1000">
+          <div className="logo"><img src={Handson} className='image' /></div> {/* Placeholder for logo */}
+          <h3 style={{textShadow: "0 0 10px #57abd7, 0 0 0px #57abd7"}}>Hands-on Learning</h3>
         </div>
-        <div className="domain-card" data-aos="fade-up" data-aos-duration="1000">
-          <div className="logo"><img src={Corp} className='image'/></div> {/* Placeholder for logo */}
-          <h3>Corporate</h3>
-          <p>
-            Corporate domain deals with business strategies, management, and operations within organizations.
-          </p>
+        <div className="focus-card" data-aos="fade-up" data-aos-duration="1000">
+          <div className="logo"><img src={Hackathons} className='image' style={{marginTop:"55px"}}/></div> {/* Placeholder for logo */}
+          <h3 style={{textShadow: "0 0 10px #57abd7, 0 0 0px #57abd7"}}>Competitions and Challenges</h3>
         </div>
-        <div className="domain-card" data-aos="fade-up" data-aos-duration="1000">
-          <div className="logo"><img src={Creatives} className='image'/></div> {/* Placeholder for logo */}
-          <h3>Creatives</h3>
-          <p>
-            Creatives domain involves artistic and design-oriented work, including graphic design, UI/UX design, and multimedia production.
-          </p>
+        <div className="focus-card" data-aos="fade-up" data-aos-duration="1000">
+          <div className="logo"><img src={Network} className='image'/></div> {/* Placeholder for logo */}
+          <h3 style={{textShadow: "0 0 10px #57abd7, 0 0 0px #57abd7"}}>Networking Opportunities</h3>
         </div>
       </div>
     </div>
   );
 }
 
-export default Domains;
+export default Focus;

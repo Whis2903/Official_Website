@@ -1,10 +1,31 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import '../css/About.css'
+import Focus from '../components/about/focus/Focus'
 
 function About() { 
+  const [scroll, setScroll] = useState(0);
+
+    useEffect(() => {
+
+        let progressBarHandler = () => {
+            
+            const totalScroll = document.documentElement.scrollTop;
+            const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scroll = `${totalScroll / windowHeight}`;
+
+            setScroll(scroll);
+        }
+
+        window.addEventListener("scroll", progressBarHandler);
+
+        return () => window.removeEventListener("scroll", progressBarHandler);
+    });
 
   return (
     <>
+    <div id="progressBarContainer">
+                <div id="progressBar" style={{transform: `scale(${scroll}, 1)`, opacity: `${scroll}`}} />
+            </div>
     <section className="landing-section section h-70vh" style={{marginTop:"220px"}}>
         <div className="container" style={{ marginTop: "-110px" }}>
           <div className="gbc1"></div>
@@ -25,6 +46,7 @@ function About() {
                   </div>
                 </div>
   <div className="content">
+  <Focus/>
   </div>
 </div>
         </div>

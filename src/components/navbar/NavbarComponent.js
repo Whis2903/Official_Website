@@ -110,6 +110,19 @@ function NavbarComponent() {
               >
                 About Us
               </Nav.Link>
+              <Nav.Link
+                as={NavLink}
+                to="/blogs"
+                style={{fontWeight:"bolder"}}
+                onClick={() => {
+                  setActiveLink("/blogs");
+                  window.innerWidth <= 768 &&
+                    document.querySelector(".navbar-toggler").click();
+                }}
+                className={activeLink === "/blogs" ? "active" : ""}
+              >
+                Blogs
+              </Nav.Link>
               {/* <Nav.Link
                 as={HashLink}
                 to="/#upcomingevents"

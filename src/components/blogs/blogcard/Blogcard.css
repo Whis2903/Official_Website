@@ -1,0 +1,44 @@
+.blog-card{
+    background-color: black;
+    animation: glow 3s infinite alternate;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.blog-card-container {
+    display: grid!important;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr))!important;
+    grid-gap: 20px!important;
+  }
+  
+  
+.blog-button {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    border: 2px solid var(--secondary-color);
+    font-weight: bold;
+}
+
+.blog-button:hover {
+    background-color: black; /* Corrected value */
+    color: var(--secondary-color);
+    border: 2px solid #3fb4f3; /* Corrected value */
+}
+@media screen and (max-width: 768px) {
+    .blog-card {
+      width: calc(90%); 
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+  
+    .blog-title {
+      font-size: 18px; /* Adjust font size */
+    }
+  
+    .blog-text {
+      font-size: 16px; /* Adjust font size */
+    }
+  
+    .blog-button {
+      height: 40px; /* Adjust button height */
+      font-size: 16px; /* Adjust font size */
+    }
+  }
