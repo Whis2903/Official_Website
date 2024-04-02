@@ -9,9 +9,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/ADITYAVOFFICIAL/Official_Website)
 
 <p align="center">
-  <a href="srmsigkddtesting.vercel.app">
     <img alt = "Logo" height="150" width="150" src = "./public/apple-touch-icon.png">
-  </a>
 
 </p>
 <h1 align="center" >SIGKDD Student Chapter SRM KTR </h1>
