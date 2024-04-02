@@ -82,6 +82,7 @@
   .domain-card p {
     font-size: 16px;
     line-height: 1.6;
+    font-weight: 500;
   }
   .domain-card:hover h3 {
     transform: scale(1.05); 
