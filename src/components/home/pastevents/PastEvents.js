@@ -22,7 +22,7 @@ const PastEvents = () => {
         <div className="gbc2"></div>
         <div className="row">
           <div className="text-center" style={{marginBottom:"20px"}}>
-            <h2 className="section-title">
+            <h2 className="section-title evet">
               Our{" "}
               <span style={{ color: "var(--secondary-color)" }}>Past</span>{" "}
               Events

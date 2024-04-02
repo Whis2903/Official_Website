@@ -32,7 +32,9 @@
     font-weight: bold;
     margin-bottom: 20px;
   }
-  
+  .domt{
+    font-size: 47px!important;
+  }
   .domains-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted width of cards */

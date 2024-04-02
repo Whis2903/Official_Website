@@ -18,7 +18,7 @@ function Domains() {
 
   return (
     <div className="domains-container">
-      <h2 className="section-title" style={{marginBottom:"35px"}}>
+      <h2 className="section-title domt" style={{marginBottom:"35px"}}>
         Explore our{" "}
         <span style={{ color: "var(--secondary-color)" }}>
           Domains

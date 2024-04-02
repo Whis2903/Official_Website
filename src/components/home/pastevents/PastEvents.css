@@ -4,7 +4,9 @@
   background-color: var(--secondary-color);
   border-radius: 50%;
 }
-
+.evet{
+  font-size: 47px!important;
+}
 .imgg{
   height: 100%;
   width: 100%;
