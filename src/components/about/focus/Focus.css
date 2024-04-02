@@ -28,12 +28,12 @@
   .focus-card {
     /* Add your existing styles here */
     filter: blur(0); /* Initial no blur */
-    transition: filter 0.5s ease; /* Smooth transition for blur effect */
+    transition: filter 0.5s ease, transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;  /* Smooth transition for blur effect */
   }
   
   .focus-card.blur {
     filter: blur(5px);
-    transition: filter 0.5s ease; /* Adjust the blur intensity as needed */
+    transition: filter 0.5s ease, transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Adjust the blur intensity as needed */
   }
   .section-title {
     font-family: "Syne";
@@ -69,11 +69,20 @@
     }
   }
   .focus-card:hover {
+    transform: scale(1.03);
     transition: background-color 0.8s!important;
     box-shadow: 0 0 20px rgba(87, 171, 215, 0.5); /* Glowing box shadow on hover */
     background-color: #57abd7; /* Change background color on hover */
   }
-  
+  .focus-card:hover .image {
+    transform: scale(1.1); /* Scale effect on hover */
+  }
+  .image {
+    width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 1s ease; /* Smooth transition for hover effect */
+  }
   .focus-card h3 {
     font-size: 30px;
     margin-bottom: 10px;
