@@ -41,6 +41,8 @@
   width: 230px;
   margin: auto;
   font-size: 20px;
+  font-family: "Syne";
+  font-weight: bold;
 }
 
 .custom-card > .card-body > .card-text {
@@ -76,6 +78,9 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .mainn{
+    margin-left: 35px;
+  }
   .custom-card {
     width: calc(90%); 
     padding: 20px 1px; /* Adjust padding */

@@ -35,7 +35,6 @@
   border: 2px solid var(--secondary-color);
   font-weight: bold;
 }
-
 .blog-role {
   margin-top: -20px;
   margin-bottom: 25px;
@@ -51,9 +50,10 @@
 
 @media screen and (max-width: 768px) {
   .blog-card {
-      width: calc(90%);
-      margin-bottom: 30px;
-      margin-top: 30px;
+      width: 90%; /* Adjust card width as needed */
+      margin: 0 auto 30px; /* Center the card horizontally */
+      padding: 20px;
+      height: 102%;
   }
 
   .blog-title {
@@ -63,6 +63,7 @@
   .blog-text {
       font-size: 16px; /* Adjust font size */
   }
+
   .blog-role {
       margin-top: -15px;
       font-size: 15px;
@@ -73,6 +74,8 @@
 
   .blog-button {
       height: 40px; /* Adjust button height */
-      font-size: 16px; /* Adjust font size */
+      font-size: 16px;
+      margin-left: 22px;
+      margin-bottom: 13px; /* Adjust font size */
   }
 }

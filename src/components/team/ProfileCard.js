@@ -5,7 +5,7 @@ import "./ProfileCard.css";
 
 function ProfileCard(props) {
   return (
-    <div className="col-lg-3 ml-auto mr-auto">
+    <div className="col-lg-3 ml-auto mr-auto mainn">
       <div className="custom-card card text-center">
         <img src={props.img} className="card-img-top" alt="..." />
         <div className="card-body">

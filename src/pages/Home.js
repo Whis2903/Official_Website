@@ -3,8 +3,6 @@ import '../css/Home.css'
 // eslint-disable-next-line
 import LandingSection from '../components/home/landingsection/LandingSection'
 // eslint-disable-next-line
-import PastEvents from '../components/home/pastevents/PastEvents'
-// eslint-disable-next-line
 import UpcomingEvent from '../components/home/upcomingsection/UpcomingEvent'
 import SponsorSection from '../components/home/sponsorsection/SponsorSection'
 // eslint-disable-next-line
@@ -24,7 +22,6 @@ function Home() {
     {/* <UpcomingEvent /> */}
     <Domains/>
     <TeamCarousel />
-    <PastEvents />
     <div className='container'></div>
     <SponsorSection />
     

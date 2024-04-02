@@ -2,8 +2,6 @@ import './css/App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/react"
 import Navbar from './components/navbar/NavbarComponent';
 import Footer from './components/footer/Footer';
 import Home from './pages/Home';
@@ -12,8 +10,6 @@ import JoinCommunity from './pages/JoinCommunity';
 import Bylaws from './pages/Bylaws';
 import About from './pages/About'
 import Faq from './pages/Faq'
-import Event from './pages/Event';
-import Event2 from './pages/Event2';
 import Err from './components/err/Err';
 import Blogs from './pages/Blogs'
 import {Routes, Route,} from 'react-router-dom';
@@ -31,7 +27,6 @@ function App() {
       <Route path="bylaws" element={<Bylaws/>} />
       <Route path="about" element={<About/>} />
       <Route path="faq" element={<Faq/>} />
-      <Route path="event" element={<Event/>} />
       <Route path="blogs" element={<Blogs/>} />
       <Route path="*" element={<Err />} />
     </Routes>

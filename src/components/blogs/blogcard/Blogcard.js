@@ -9,8 +9,8 @@ function Blogcard(props) {
       <Card className='blog-card' style={{ width: '18rem', marginBottom: '20px', position: 'relative' }}>
         <Card.Img variant="top" src={props.imgSrc} style={{ borderRadius: "20px" }} />
         <Card.Body className='blog-body'>
-          <Card.Title className='blog-title'>{props.title}</Card.Title>
-          <Card.Text className='blog-text'>{props.aboutblog}</Card.Text>
+          <Card.Title className='blog-title' style={{color:"white",fontFamily:"Syne",fontWeight:"bold",fontSize:"21px"}}>{props.title}</Card.Title>
+          <Card.Text className='blog-text' style={{color:"white"}}>{props.aboutblog}</Card.Text>
           <Card.Subtitle className='blog-role'>{props.role}</Card.Subtitle>
           <div className="button-container">
             <Button variant="primary" className="blog-button btn" target='_blank' rel='noreffer' href={props.Mediumlink}>Medium Link</Button>

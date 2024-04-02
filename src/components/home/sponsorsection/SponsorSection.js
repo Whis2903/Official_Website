@@ -4,7 +4,6 @@ import srmLogo from "../sponsorsection/images/srm.svg";
 import dsbslogo from "../sponsorsection/images/dsbs.png";
 import acmlogo from "../sponsorsection/images/acm.png";
 import sigkdd from "../sponsorsection/images/sigkdd.png"
-import AOS from "aos";
 const SponsorSection = (props) => {
   const srmRef = useRef(null);
   const dsbsRef = useRef(null);
@@ -24,7 +23,7 @@ const SponsorSection = (props) => {
   return (
     <>
     <p className="mobfixeup"></p>
-      <section className="landing-section section h-70vh" style={{marginTop:"150px"}}>
+      <section className="landing-section section h-70vh" style={{marginTop:"250px"}}>
         <div className="container" style={{ marginTop: "-210px" }}>
           <div className="gbc1"></div>
           <div className="row justify-content-center text-center">

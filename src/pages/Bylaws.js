@@ -41,7 +41,7 @@ function Bylaws() {
           <div className="gbc1"></div>
           <div className="row ">
             <div className="col-md-12 text-center">
-              <h1 data-aos="fade-up" data-aos-duration="1000" className="section-title">
+              <h1 className="section-title">
                 SIGKDD SRM KTR Student Chapter
                 <span style={{ color: "var(--secondary-color)",textShadow: "0 0 10px #57abd7, 0 0 20px #57abd7" }}>
                   {" "}
