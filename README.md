@@ -1,5 +1,5 @@
 
-![Status](https://img.shields.io/website-up-down-green-red/https/srmsigkdd.vercel.app/.svg)
+![Status](https://img.shields.io/website-up-down-green-red/https/srmsigkddtesting.vercel.app/.svg)
 ![Forks](https://img.shields.io/github/forks/ADITYAVOFFICIAL/Official_Website.svg)
 ![Issues](https://img.shields.io/github/issues/ADITYAVOFFICIAL/Official_Website.svg)
 ![PR](https://img.shields.io/github/issues-pr/ADITYAVOFFICIAL/Official_Website.svg)
