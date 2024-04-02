@@ -4,11 +4,6 @@ import Tab from "../components/team/tabbar/Tab";
 import "../css/Blogs.css";
 
 function Blogs() {
-  const [selectedTab, setSelectedTab] = useState("rd-tab"); // Default selected tab is R&D
-
-  const handleTabClick = (tabId) => {
-    setSelectedTab(tabId);
-  };
   return (
     <>
       <section className="landing-section section h-70vh" style={{ marginTop: "220px" }}>
@@ -24,36 +19,6 @@ function Blogs() {
               </h1>
             </div>
           </div>
-          <ul className="nav nav-tabs justify-content-center" role="tablist" style={{ marginBottom: "35px" }}>
-            <Tab
-              className="nav-link tab-btn active"
-              id="rd-tab"
-              targetID="#rd-tab-pane"
-              title="Research & Development"
-              selected={false}
-            />
-            <Tab
-              className="nav-link tab-btn"
-              id="webapp-tab"
-              targetID="#web-app-tab-pane"
-              title="Web/App Development"
-              selected={false}
-            />
-            <Tab
-              className="nav-link tab-btn"
-              id="technical-tab"
-              targetID="#technical-tab-pane"
-              title="Blockchain"
-              selected={false}
-            />
-            <Tab
-              className="nav-link tab-btn"
-              id="misc-tab"
-              targetID="#misc-tab-pane"
-              title="Miscellaneous"
-              selected={false}
-            />
-          </ul>
           <div className="blog-card-container">
             <Blogcard
               imgSrc="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*AMm6E7rpmHT4ca30cIiY2Q.png"
