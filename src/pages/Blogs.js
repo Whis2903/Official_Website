@@ -33,6 +33,14 @@ function Blogs() {
               role="Chairperson"
               Mediumlink="https://medium.com/@adityaver/gans-in-big-data-analytics-and-data-science-95caa0cc2054"
             />
+            <Blogcard
+              imgSrc="https://miro.medium.com/v2/resize:fit:550/format:webp/1*NTsKP3ALyAYrL3l66x-wZw.jpeg"
+              title="The Impact of Hackathons on Learning: A Personal Reflection
+              aboutblog="Vishal Mohan Nair"
+              role="R&D HEAD"
+              Mediumlink="https://medium.com/@vishalmadridrox/the-impact-of-hackathons-on-learning-a-personal-reflection-b5295735c3e1"
+            />    
+            
           </div>
         </div>
       </section>
